@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--ICGIG V1.1 (01-01-2026)-->
+<xbrli:xbrl xmlns:in-capmkt="http://www.sebi.gov.in/xbrl/2024-12-31/in-capmkt" xmlns:in-capmkt-ent="http://www.sebi.gov.in/xbrl/IntegratedGovernance/2024-12-31/in-capmkt/in-capmkt-ent" xmlns:in-capmkt-roles="http://www.sebi.gov.in/xbrl/IntegratedGovernance/2024-12-31/in-capmkt-roles" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:in-capmkt-types="http://www.sebi.gov.in/xbrl/2024-12-31/in-capmkt-types" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xl="http://www.xbrl.org/2003/XLink">
+  <link:schemaRef xlink:type="simple" xlink:href="in-capmkt-ent-2024-12-31.xsd" />
+  <xbrli:context id="MainD">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="MainI">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors1</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors1</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors2</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors2</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors3</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors3</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors4</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors4</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors5</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors5</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors6</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors6</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees14</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees14</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees15</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit15">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees15</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees16</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit16">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees16</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees17</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit17">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees17</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit41">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees41</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit41">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees41</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit42">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees42</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit42">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees42</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit43">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees43</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit43">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees43</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit68">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees68</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit68">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees68</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit69">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees69</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit69">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees69</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit70">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees70</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit70">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees70</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit71">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees71</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit71">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees71</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingBOD1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfBoardOfDirectorsAxis">
+        <in-capmkt:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors1</in-capmkt:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_MeetingBOD1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfBoardOfDirectorsAxis">
+        <in-capmkt:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors1</in-capmkt:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingBOD2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfBoardOfDirectorsAxis">
+        <in-capmkt:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors2</in-capmkt:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_MeetingBOD2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfBoardOfDirectorsAxis">
+        <in-capmkt:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors2</in-capmkt:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingBOD3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfBoardOfDirectorsAxis">
+        <in-capmkt:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors3</in-capmkt:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_MeetingBOD3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfBoardOfDirectorsAxis">
+        <in-capmkt:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors3</in-capmkt:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingBOD4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfBoardOfDirectorsAxis">
+        <in-capmkt:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors4</in-capmkt:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_MeetingBOD4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfBoardOfDirectorsAxis">
+        <in-capmkt:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors4</in-capmkt:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_MeetingComit1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfCommitteesAxis">
+        <in-capmkt:MeetingOfCommitteesDomain>MeetingOfCommittees1</in-capmkt:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingComit1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfCommitteesAxis">
+        <in-capmkt:MeetingOfCommitteesDomain>MeetingOfCommittees1</in-capmkt:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_MeetingComit2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfCommitteesAxis">
+        <in-capmkt:MeetingOfCommitteesDomain>MeetingOfCommittees2</in-capmkt:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingComit2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfCommitteesAxis">
+        <in-capmkt:MeetingOfCommitteesDomain>MeetingOfCommittees2</in-capmkt:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_MeetingComit3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfCommitteesAxis">
+        <in-capmkt:MeetingOfCommitteesDomain>MeetingOfCommittees3</in-capmkt:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingComit3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfCommitteesAxis">
+        <in-capmkt:MeetingOfCommitteesDomain>MeetingOfCommittees3</in-capmkt:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_MeetingComit4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfCommitteesAxis">
+        <in-capmkt:MeetingOfCommitteesDomain>MeetingOfCommittees4</in-capmkt:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingComit4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:MeetingOfCommitteesAxis">
+        <in-capmkt:MeetingOfCommitteesDomain>MeetingOfCommittees4</in-capmkt:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="PY_I">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="I_ImpositionOfFineOrPenalty1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:ImpositionOfFineOrPenaltyAxis">
+        <in-capmkt:ImpositionOfFineOrPenaltyDomain>ImpositionOfFineOrPenaltyDomain1</in-capmkt:ImpositionOfFineOrPenaltyDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain1</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain2</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain3</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain4</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain5</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain6</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain7</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain8</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain9</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes10">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain10</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes11">
+    <xbrli:entity>
+      <xbrli:identifier scheme="https://www.sebi.gov.in/in-capmkt/ScripCode">533212</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain11</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <in-capmkt:ScripCode contextRef="MainI">533212</in-capmkt:ScripCode>
+  <in-capmkt:Symbol contextRef="MainI">NOTLISTED</in-capmkt:Symbol>
+  <in-capmkt:MSEISymbol contextRef="MainI">BSE</in-capmkt:MSEISymbol>
+  <in-capmkt:ISIN contextRef="MainI">INE265D01015</in-capmkt:ISIN>
+  <in-capmkt:NameOfTheCompany contextRef="MainI">GKB Ophthalmics Limited</in-capmkt:NameOfTheCompany>
+  <in-capmkt:DateOfStartOfFinancialYear contextRef="MainI">2025-04-01</in-capmkt:DateOfStartOfFinancialYear>
+  <in-capmkt:DateOfEndOfFinancialYear contextRef="MainI">2026-03-31</in-capmkt:DateOfEndOfFinancialYear>
+  <in-capmkt:ReportingQuarter contextRef="MainI">Quarterly</in-capmkt:ReportingQuarter>
+  <in-capmkt:DateOfEndOfReportingPeriod contextRef="MainI">2025-12-31</in-capmkt:DateOfEndOfReportingPeriod>
+  <in-capmkt:TypeOfCompany contextRef="MainD">Equity</in-capmkt:TypeOfCompany>
+  <in-capmkt:WhetherPartAOfAnnexureIOfTheSEBICircularDated31December2024RelatedToComplianceReportOnCorporateGovernanceIsApplicableToTheEntity contextRef="MainD">true</in-capmkt:WhetherPartAOfAnnexureIOfTheSEBICircularDated31December2024RelatedToComplianceReportOnCorporateGovernanceIsApplicableToTheEntity>
+  <in-capmkt:WhetherPartBOfAnnexureIOfTheSEBICircularDated31December2024RelatedToInvestorGrievanceRedressalReportIsApplicableToTheEntity contextRef="MainD">true</in-capmkt:WhetherPartBOfAnnexureIOfTheSEBICircularDated31December2024RelatedToInvestorGrievanceRedressalReportIsApplicableToTheEntity>
+  <in-capmkt:WhetherPartCOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfAcquisitionOfSharesOrVotingRightsInUnlistedCompaniesIsApplicableToTheEntity contextRef="MainD">false</in-capmkt:WhetherPartCOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfAcquisitionOfSharesOrVotingRightsInUnlistedCompaniesIsApplicableToTheEntity>
+  <in-capmkt:ReasonForPartCOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfAcquisitionOfSharesOrVotingRightsInUnlistedCompaniesIsNotApplicableToTheEntity contextRef="MainD">The Company has not aquired any shares during the reporting quarter</in-capmkt:ReasonForPartCOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfAcquisitionOfSharesOrVotingRightsInUnlistedCompaniesIsNotApplicableToTheEntity>
+  <in-capmkt:WhetherPartDOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfImpositionOfFineOrPenaltyIsApplicableToTheEntity contextRef="MainD">true</in-capmkt:WhetherPartDOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfImpositionOfFineOrPenaltyIsApplicableToTheEntity>
+  <in-capmkt:WhetherPartEOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfUpdatesToOngoingTaxLitigationsOrDisputesIsApplicableToTheEntity contextRef="MainD">true</in-capmkt:WhetherPartEOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfUpdatesToOngoingTaxLitigationsOrDisputesIsApplicableToTheEntity>
+  <in-capmkt:RiskManagementCommittee contextRef="MainD">false</in-capmkt:RiskManagementCommittee>
+  <in-capmkt:MarketCapitalisationAsPerImmediatePreviousFinancialYear contextRef="MainD">Any other</in-capmkt:MarketCapitalisationAsPerImmediatePreviousFinancialYear>
+  <in-capmkt:IsSCORESIDAvailable contextRef="MainI">true</in-capmkt:IsSCORESIDAvailable>
+  <in-capmkt:SCORESRegistrationID contextRef="MainI">g00316</in-capmkt:SCORESRegistrationID>
+  <in-capmkt:TypeOfSubmission contextRef="MainI">Original</in-capmkt:TypeOfSubmission>
+  <in-capmkt:WhetherTheListedEntityHasARegularChairperson contextRef="MainD">true</in-capmkt:WhetherTheListedEntityHasARegularChairperson>
+  <in-capmkt:WhetherChairpersonIsRelatedToMDOrCEO contextRef="MainD">true</in-capmkt:WhetherChairpersonIsRelatedToMDOrCEO>
+  <in-capmkt:Title contextRef="D_CompBOD1">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD1">K.G. Gupta</in-capmkt:NameOftheDirector>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompBOD1">00051863</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD1">Executive Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD1">Chairperson</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:PositionOfDirectorInBoardThree contextRef="D_CompBOD1">MD</in-capmkt:PositionOfDirectorInBoardThree>
+  <in-capmkt:DateOfBirth contextRef="CompBOD1">1940-12-31</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD1">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD1">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD1">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD1">1981-12-10</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:DateOfReappointmentOfDirector contextRef="CompBOD1">2023-08-11</in-capmkt:DateOfReappointmentOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:Title contextRef="D_CompBOD2">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD2">Vikram Gupta</in-capmkt:NameOftheDirector>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompBOD2">00052019</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD2">Non-Executive - Non Independent Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD2">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:DateOfBirth contextRef="CompBOD2">1968-09-27</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD2">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD2">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD2">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD2">1996-07-24</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:DateOfReappointmentOfDirector contextRef="CompBOD2">2023-09-14</in-capmkt:DateOfReappointmentOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:Title contextRef="D_CompBOD3">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD3">Purushottam S Mantri</in-capmkt:NameOftheDirector>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompBOD3">06785989</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD3">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD3">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:DateOfBirth contextRef="CompBOD3">1957-12-23</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD3">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD3">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD3">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD3">2023-06-20</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:TenureOfDirector contextRef="CompBOD3" unitRef="pure" decimals="INF">31</in-capmkt:TenureOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">5</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:Title contextRef="D_CompBOD4">Mrs</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD4">Sandhya Ajit Kamat</in-capmkt:NameOftheDirector>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompBOD4">10591664</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD4">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD4">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:DateOfBirth contextRef="CompBOD4">1961-08-12</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD4">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD4">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD4">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD4">2024-05-22</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:TenureOfDirector contextRef="CompBOD4" unitRef="pure" decimals="INF">20</in-capmkt:TenureOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">2</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:Title contextRef="D_CompBOD5">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD5">Ninad G. Kamat</in-capmkt:NameOftheDirector>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompBOD5">09611972</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD5">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD5">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:DateOfBirth contextRef="CompBOD5">1972-06-03</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD5">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD5">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD5">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD5">2024-06-01</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:TenureOfDirector contextRef="CompBOD5" unitRef="pure" decimals="INF">19</in-capmkt:TenureOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">2</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">2</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:Title contextRef="D_CompBOD6">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD6">Cedric Lobo</in-capmkt:NameOftheDirector>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompBOD6">09124746</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD6">Executive Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD6">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:DateOfBirth contextRef="CompBOD6">1964-06-16</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD6">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD6">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD6">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD6">2024-06-01</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:DateOfReappointmentOfDirector contextRef="CompBOD6">2025-08-21</in-capmkt:DateOfReappointmentOfDirector>
+  <in-capmkt:TenureOfDirector contextRef="CompBOD6" unitRef="pure" decimals="INF">19</in-capmkt:TenureOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">2</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:WhetherTheAuditCommitteeHasARegularChairperson contextRef="MainD">true</in-capmkt:WhetherTheAuditCommitteeHasARegularChairperson>
+  <in-capmkt:WhetherTheNominationAndRemunerationCommitteeHasARegularChairperson contextRef="MainD">true</in-capmkt:WhetherTheNominationAndRemunerationCommitteeHasARegularChairperson>
+  <in-capmkt:WhetherTheStakeholdersRelationshipCommitteeHasARegularChairperson contextRef="MainD">true</in-capmkt:WhetherTheStakeholdersRelationshipCommitteeHasARegularChairperson>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit14">Audit Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit14">06785989</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit14">Purushottam S Mantri</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit14">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit14">Chairperson</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit14">2023-07-14</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit15">Audit Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit15">09611972</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit15">Ninad G. Kamat</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit15">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit15">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit15">2024-06-01</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit16">Audit Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit16">09124746</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit16">Cedric Lobo</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit16">Executive Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit16">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit16">2024-06-01</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit17">Audit Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit17">10591664</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit17">Sandhya Ajit Kamat</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit17">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit17">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit17">2025-04-01</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit41">Nomination and remuneration committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit41">06785989</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit41">Purushottam S Mantri</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit41">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit41">Chairperson</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit41">2024-05-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit42">Nomination and remuneration committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit42">10591664</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit42">Sandhya Ajit Kamat</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit42">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit42">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit42">2024-05-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit43">Nomination and remuneration committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit43">09611972</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit43">Ninad G. Kamat</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit43">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit43">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit43">2025-04-01</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit68">Stakeholders Relationship Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit68">09611972</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit68">Ninad G. Kamat</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit68">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit68">Chairperson</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit68">2025-04-01</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit69">Stakeholders Relationship Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit69">06785989</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit69">Purushottam S Mantri</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit69">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit69">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit69">2023-07-14</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit70">Stakeholders Relationship Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit70">10591664</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit70">Sandhya Ajit Kamat</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit70">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit70">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit70">2024-06-01</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit71">Stakeholders Relationship Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DirectorIdentificationNumberOfDirector contextRef="D_CompComit71">09124746</in-capmkt:DirectorIdentificationNumberOfDirector>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit71">Cedric Lobo</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit71">Executive Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit71">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit71">2025-04-01</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:DatesOfMeetingInThePreviousQuarter contextRef="MeetingBOD1">2025-07-09</in-capmkt:DatesOfMeetingInThePreviousQuarter>
+  <in-capmkt:WhetherRequirementOfQuorumMet contextRef="D_MeetingBOD1">true</in-capmkt:WhetherRequirementOfQuorumMet>
+  <in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting contextRef="MeetingBOD1" unitRef="pure" decimals="INF">6</in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting>
+  <in-capmkt:NumberOfDirectorsPresentInMeetingOfBoardOfDirectors contextRef="MeetingBOD1" unitRef="pure" decimals="INF">5</in-capmkt:NumberOfDirectorsPresentInMeetingOfBoardOfDirectors>
+  <in-capmkt:NumberOfIndependentDirectorsAttendingTheMeeting contextRef="MeetingBOD1" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfIndependentDirectorsAttendingTheMeeting>
+  <in-capmkt:DatesOfMeetingInThePreviousQuarter contextRef="MeetingBOD2">2025-08-14</in-capmkt:DatesOfMeetingInThePreviousQuarter>
+  <in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings contextRef="MeetingBOD2" unitRef="pure" decimals="INF">35</in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings>
+  <in-capmkt:WhetherRequirementOfQuorumMet contextRef="D_MeetingBOD2">true</in-capmkt:WhetherRequirementOfQuorumMet>
+  <in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting contextRef="MeetingBOD2" unitRef="pure" decimals="INF">6</in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting>
+  <in-capmkt:NumberOfDirectorsPresentInMeetingOfBoardOfDirectors contextRef="MeetingBOD2" unitRef="pure" decimals="INF">4</in-capmkt:NumberOfDirectorsPresentInMeetingOfBoardOfDirectors>
+  <in-capmkt:NumberOfIndependentDirectorsAttendingTheMeeting contextRef="MeetingBOD2" unitRef="pure" decimals="INF">2</in-capmkt:NumberOfIndependentDirectorsAttendingTheMeeting>
+  <in-capmkt:DatesOfMeetingInThePreviousQuarter contextRef="MeetingBOD3">2025-09-22</in-capmkt:DatesOfMeetingInThePreviousQuarter>
+  <in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings contextRef="MeetingBOD3" unitRef="pure" decimals="INF">38</in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings>
+  <in-capmkt:WhetherRequirementOfQuorumMet contextRef="D_MeetingBOD3">true</in-capmkt:WhetherRequirementOfQuorumMet>
+  <in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting contextRef="MeetingBOD3" unitRef="pure" decimals="INF">6</in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting>
+  <in-capmkt:NumberOfDirectorsPresentInMeetingOfBoardOfDirectors contextRef="MeetingBOD3" unitRef="pure" decimals="INF">5</in-capmkt:NumberOfDirectorsPresentInMeetingOfBoardOfDirectors>
+  <in-capmkt:NumberOfIndependentDirectorsAttendingTheMeeting contextRef="MeetingBOD3" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfIndependentDirectorsAttendingTheMeeting>
+  <in-capmkt:DatesOfMeetingIfAnyInTheRelevantQuarter contextRef="MeetingBOD4">2025-11-14</in-capmkt:DatesOfMeetingIfAnyInTheRelevantQuarter>
+  <in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings contextRef="MeetingBOD4" unitRef="pure" decimals="INF">52</in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings>
+  <in-capmkt:WhetherRequirementOfQuorumMet contextRef="D_MeetingBOD4">true</in-capmkt:WhetherRequirementOfQuorumMet>
+  <in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting contextRef="MeetingBOD4" unitRef="pure" decimals="INF">6</in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting>
+  <in-capmkt:NumberOfDirectorsPresentInMeetingOfBoardOfDirectors contextRef="MeetingBOD4" unitRef="pure" decimals="INF">6</in-capmkt:NumberOfDirectorsPresentInMeetingOfBoardOfDirectors>
+  <in-capmkt:NumberOfIndependentDirectorsAttendingTheMeeting contextRef="MeetingBOD4" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfIndependentDirectorsAttendingTheMeeting>
+  <in-capmkt:NameOfCommittee contextRef="D_MeetingComit1">Audit Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DatesOfMeetingOfTheCommitteeInThePreviousQuarter contextRef="MeetingComit1">2025-07-09</in-capmkt:DatesOfMeetingOfTheCommitteeInThePreviousQuarter>
+  <in-capmkt:WhetherRequirementOfQuorumMet contextRef="D_MeetingComit1">true</in-capmkt:WhetherRequirementOfQuorumMet>
+  <in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting contextRef="MeetingComit1" unitRef="pure" decimals="INF">4</in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting>
+  <in-capmkt:NumberOfDirectorPresentInMeetingOfCommitteeAllDirectorsIncludingIndependentDirector contextRef="MeetingComit1" unitRef="pure" decimals="INF">4</in-capmkt:NumberOfDirectorPresentInMeetingOfCommitteeAllDirectorsIncludingIndependentDirector>
+  <in-capmkt:NumberOfIndependentDirectorAttendingMeetingOfCommittee contextRef="MeetingComit1" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfIndependentDirectorAttendingMeetingOfCommittee>
+  <in-capmkt:NumberOfMemberAttendingMeetingOfCommittee contextRef="MeetingComit1" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfMemberAttendingMeetingOfCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_MeetingComit2">Audit Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DatesOfMeetingOfTheCommitteeInThePreviousQuarter contextRef="MeetingComit2">2025-08-14</in-capmkt:DatesOfMeetingOfTheCommitteeInThePreviousQuarter>
+  <in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings contextRef="MeetingComit2" unitRef="pure" decimals="INF">35</in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings>
+  <in-capmkt:WhetherRequirementOfQuorumMet contextRef="D_MeetingComit2">true</in-capmkt:WhetherRequirementOfQuorumMet>
+  <in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting contextRef="MeetingComit2" unitRef="pure" decimals="INF">4</in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting>
+  <in-capmkt:NumberOfDirectorPresentInMeetingOfCommitteeAllDirectorsIncludingIndependentDirector contextRef="MeetingComit2" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfDirectorPresentInMeetingOfCommitteeAllDirectorsIncludingIndependentDirector>
+  <in-capmkt:NumberOfIndependentDirectorAttendingMeetingOfCommittee contextRef="MeetingComit2" unitRef="pure" decimals="INF">2</in-capmkt:NumberOfIndependentDirectorAttendingMeetingOfCommittee>
+  <in-capmkt:NumberOfMemberAttendingMeetingOfCommittee contextRef="MeetingComit2" unitRef="pure" decimals="INF">7</in-capmkt:NumberOfMemberAttendingMeetingOfCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_MeetingComit3">Audit Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DatesOfMeetingOfTheCommitteeInThePreviousQuarter contextRef="MeetingComit3">2025-09-22</in-capmkt:DatesOfMeetingOfTheCommitteeInThePreviousQuarter>
+  <in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings contextRef="MeetingComit3" unitRef="pure" decimals="INF">38</in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings>
+  <in-capmkt:WhetherRequirementOfQuorumMet contextRef="D_MeetingComit3">true</in-capmkt:WhetherRequirementOfQuorumMet>
+  <in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting contextRef="MeetingComit3" unitRef="pure" decimals="INF">4</in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting>
+  <in-capmkt:NumberOfDirectorPresentInMeetingOfCommitteeAllDirectorsIncludingIndependentDirector contextRef="MeetingComit3" unitRef="pure" decimals="INF">4</in-capmkt:NumberOfDirectorPresentInMeetingOfCommitteeAllDirectorsIncludingIndependentDirector>
+  <in-capmkt:NumberOfIndependentDirectorAttendingMeetingOfCommittee contextRef="MeetingComit3" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfIndependentDirectorAttendingMeetingOfCommittee>
+  <in-capmkt:NumberOfMemberAttendingMeetingOfCommittee contextRef="MeetingComit3" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfMemberAttendingMeetingOfCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_MeetingComit4">Audit Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:DatesOfMeetingOfTheCommitteeInTheRelevantQuarter contextRef="MeetingComit4">2025-11-14</in-capmkt:DatesOfMeetingOfTheCommitteeInTheRelevantQuarter>
+  <in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings contextRef="MeetingComit4" unitRef="pure" decimals="INF">52</in-capmkt:MaximumGapBetweenAnyTwoConsecutiveMeetings>
+  <in-capmkt:WhetherRequirementOfQuorumMet contextRef="D_MeetingComit4">true</in-capmkt:WhetherRequirementOfQuorumMet>
+  <in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting contextRef="MeetingComit4" unitRef="pure" decimals="INF">4</in-capmkt:TotalNumberOfDirectorsAsOnDateOfTheMeeting>
+  <in-capmkt:NumberOfDirectorPresentInMeetingOfCommitteeAllDirectorsIncludingIndependentDirector contextRef="MeetingComit4" unitRef="pure" decimals="INF">4</in-capmkt:NumberOfDirectorPresentInMeetingOfCommitteeAllDirectorsIncludingIndependentDirector>
+  <in-capmkt:NumberOfIndependentDirectorAttendingMeetingOfCommittee contextRef="MeetingComit4" unitRef="pure" decimals="INF">3</in-capmkt:NumberOfIndependentDirectorAttendingMeetingOfCommittee>
+  <in-capmkt:NumberOfMemberAttendingMeetingOfCommittee contextRef="MeetingComit4" unitRef="pure" decimals="INF">7</in-capmkt:NumberOfMemberAttendingMeetingOfCommittee>
+  <in-capmkt:TheCompositionOfBoardOfDirectorsIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCompositionOfBoardOfDirectorsIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCompositionOfAuditCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCompositionOfAuditCommitteeIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCompositionOfTheNominationAndRemunerationCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCompositionOfTheNominationAndRemunerationCommitteeIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCompositionOfTheStakeholdersRelationshipCommitteeCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCompositionOfTheStakeholdersRelationshipCommitteeCommitteeIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCompositionOfTheRiskManagementCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">NA</in-capmkt:TheCompositionOfTheRiskManagementCommitteeIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCommitteeMembersHaveBeenMadeAwareOfTheirPowersRoleAndResponsibilitiesAsSpecifiedInSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCommitteeMembersHaveBeenMadeAwareOfTheirPowersRoleAndResponsibilitiesAsSpecifiedInSebiRegulations2015>
+  <in-capmkt:TheMeetingsOfTheBoardOfDirectorsAndTheAboveCommitteesHaveBeenConductedInTheMannerAsSpecifiedInSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheMeetingsOfTheBoardOfDirectorsAndTheAboveCommitteesHaveBeenConductedInTheMannerAsSpecifiedInSebiRegulations2015>
+  <in-capmkt:ThisReportAndOrTheReportSubmittedInThePreviousQuarterHasBeenPlacedBeforeBoardOfDirectors contextRef="MainD">true</in-capmkt:ThisReportAndOrTheReportSubmittedInThePreviousQuarterHasBeenPlacedBeforeBoardOfDirectors>
+  <in-capmkt:NameOfSignatoryForQuartelyAffirmations contextRef="MainD">Pooja Secretary</in-capmkt:NameOfSignatoryForQuartelyAffirmations>
+  <in-capmkt:DesignationOfPersonForQuartelyAffirmations contextRef="MainD">Company Secretary and Compliance Officer</in-capmkt:DesignationOfPersonForQuartelyAffirmations>
+  <in-capmkt:WhetherAsPerSubRegulation2baOfRegulation27OfSEBILODRThereHasBeenCyberSecurityIncidentsDuringTheQuarter contextRef="MainD">false</in-capmkt:WhetherAsPerSubRegulation2baOfRegulation27OfSEBILODRThereHasBeenCyberSecurityIncidentsDuringTheQuarter>
+  <in-capmkt:NameOfSignatory contextRef="MainD">Pooja Bicholkar</in-capmkt:NameOfSignatory>
+  <in-capmkt:DesignationOfPerson contextRef="MainD">Company Secretary and Compliance Officer</in-capmkt:DesignationOfPerson>
+  <in-capmkt:Place contextRef="MainD">Mapusa-goa</in-capmkt:Place>
+  <in-capmkt:DateOfSigning contextRef="MainI">2026-01-24</in-capmkt:DateOfSigning>
+  <in-capmkt:NoOfInvestorComplaints contextRef="PY_I" unitRef="pure" decimals="0">0</in-capmkt:NoOfInvestorComplaints>
+  <in-capmkt:NoOfInvestorComplaintsReceivedDuringThePeriod contextRef="MainD" unitRef="pure" decimals="0">0</in-capmkt:NoOfInvestorComplaintsReceivedDuringThePeriod>
+  <in-capmkt:NoOfInvestorComplaintsDisposedOffDuringThePeriod contextRef="MainD" unitRef="pure" decimals="0">0</in-capmkt:NoOfInvestorComplaintsDisposedOffDuringThePeriod>
+  <in-capmkt:NoOfInvestorComplaints contextRef="MainI" unitRef="pure" decimals="0">0</in-capmkt:NoOfInvestorComplaints>
+  <in-capmkt:NoOfInvestorComplaintsDuringThePeriod contextRef="MainD" unitRef="pure" decimals="0">0</in-capmkt:NoOfInvestorComplaintsDuringThePeriod>
+  <in-capmkt:NameOfTheAuthority contextRef="I_ImpositionOfFineOrPenalty1">BSE Limited</in-capmkt:NameOfTheAuthority>
+  <in-capmkt:NatureAndDetailsOfTheActionTakenOrOrderPassed contextRef="I_ImpositionOfFineOrPenalty1">Non-submission of the Annual Report within the period prescribed under  regulation 34 of SEBI (LODR)</in-capmkt:NatureAndDetailsOfTheActionTakenOrOrderPassed>
+  <in-capmkt:DateOfReceiptOfDirectionOrOrderIncludingAnyAdInterimOrInterimOrdersOrAnyOtherCommunicationFromTheAuthority contextRef="I_ImpositionOfFineOrPenalty1">2025-10-30</in-capmkt:DateOfReceiptOfDirectionOrOrderIncludingAnyAdInterimOrInterimOrdersOrAnyOtherCommunicationFromTheAuthority>
+  <in-capmkt:DetailsOfTheViolationOrContraventionCommittedOrAllegedToBeCommitted contextRef="I_ImpositionOfFineOrPenalty1">Regulation 34
+Non-submission of the Annual Report within the period prescribed under this regulation</in-capmkt:DetailsOfTheViolationOrContraventionCommittedOrAllegedToBeCommitted>
+  <in-capmkt:ImpactOnFinancialOrOperationOrOtherActivitiesOfTheListedEntityQuantifiableInMonetaryTermsToTheExtentPossible contextRef="I_ImpositionOfFineOrPenalty1">There was no impact on financial, operation or other activities of the Company.                                         The company had inadvertently filed its Annual Report under a different section, with no intention of non-compliance. A fine of  Rs. 2360/- was levied by BSE Limited, which was duly paid by the company.</in-capmkt:ImpactOnFinancialOrOperationOrOtherActivitiesOfTheListedEntityQuantifiableInMonetaryTermsToTheExtentPossible>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes1">Assistant commissioner of Commercial Tax</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes1">2012-03-20</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes1">Export sales considered as local taxable sales due to non-availability of documents</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes1">In FY 2011-12, the DRI authorities had seized the documents of the entity and during the same year VAT audit was conducted for FY 2008-09, by the sales tax department. During year 2008-09 there was export sales for which the sales tax commissioner asked for the original documents. Since the documents were seized by DRI, the entity was not able to produce the same to Sales Tax Commissioner. Thus, the sales tax commissioner has raised demand, by considering the export sales as Interstate sales and levied CST on the same.
+Mapusa Ward (CTO, ACCT) had raised the order against which the company has filed an Appeal to Appellate Authority (Panjim), who has forwarded the case to Mapusa Ward for Re-assessment and Mapusa Ward has not yet given the notice to the Company regarding the re-assessment. The Company is awaiting for the response from Mapusa Ward. Further, there were no updates on this case during the quarter.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes2">Customs, Excise and Service Tax Applellate Tribunal (CESTAT)</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes2">2016-04-12</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes2">Concessional Duty on DTA Sales not allowed (including interest and penalty). (Gross of deposit of Rs.44 Lakhs)</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes2">The Company was subjected to a Customs, Excise, and Service Tax (DRI) investigation concerning alleged misclassification of goods, excess Domestic Tariff Area (DTA) sales and failure to fully meet conditions of the Foreign Trade Policy (FTP). The Order-in-Original (No. GOA-EXCUS-000-COM-022-15-16 dated 12.04.2016) passed by the Commissioner of Central Excise and Service Tax, Goa, imposed duty, interest, and penalties on the company. The Company appealed this order before CESTAT (Customs, Excise &amp; Service Tax Appellate Tribunal) . In this matter an Order-in-Original was issued by the Commissioner of Customs, Goa imposing a total differential duty of Rs. 2,66,66,750/-and the balance Rs. 3,11,76,395/- was dropped. The Company has made an appeal to CESTAT authorities wherein the Company has sufficient grounds to further reduce this liability.The Company also filed a refund claim of Rs.23,38,236/-being the balance pre-deposit dated 27.06.2016 paid at the time of filing appeal before Hon’ble CESTAT under Section 35F of the Central Excise Act, 1944. The Custom Department sanctioned the refund of Rs. 36,55,832/- (pre-deposit of Rs.23,38,236/- and interest of Rs.13,17,596/- which was received by the Company.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes3">Commissioner of Income Tax ( Appeals)</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes3">2016-03-25</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes3">Nil</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes3">There was dividend income in AY 13-14 and 14-15. The department is contesting that the amount invested is out of borrowed funds and the interest expense on borrowed funds, which the entity has claimed as deduction, is partly disallowed by the department. However, the entity is contesting that the investment in subsidiary is made out of the shareholders fund and not from the borrowed funds.  Currently the matter is under appeal with CIT(A) ( Commissioner Appeals)-Further during the FY 22-23 entity received the order partly in favour of GKB Ophthalnmics limited by which demand has been reduced to 12.71 lakhs from 19.48 lakhs for AY 14-15.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes4">Commissioner of Income Tax ( Appeals)</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes4">2016-04-07</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes4">Mainly due to additions u/s. 14A made in scrutiny assessment</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes4">There was dividend income in AY 13-14 and 14-15. The department is contesting that the amount invested is out of borrowed funds and the interest expense on borrowed funds, which the entity has claimed as deduction, is partly disallowed by the department. However, the entity is contesting that the investment in subsidiary is made out of the shareholders fund and not from the borrowed funds.  Currently the matter is under appeal with CIT(A) ( Commissioner Appeals)-Further during the FY 22-23 entity received the order partly in favour of GKB Ophthalnmics limited by which demand has been reduced to 12.71 lakhs from 19.48 lakhs for AY 14-15.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes5">Additional Commisioner of Commercial Tax, Panaji</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes5">2017-05-31</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes5">Entry tax levied on purchases claimed as exempted (Gross of deposit of Rs.5 Lakhs)</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes5">Company is EOU unit, hence exempted for paying Entry tax on Imports. The commissioner had refused the entity's claim for the exemption.
+Mapusa Ward (CTO, ACCT) had raised the order against which the company had previously filed an Appeal to Appellate Authority (Panjim), who has forwarded the case to Mapusa Ward for Re-assessment and Mapusa Ward has not yet given the notice to GKB regarding the re-assessment. GKB is awaiting for the response from Mapusa Ward. As per the legal opinion, it was confirmed to us that the said liability should be set aside in appeal.Entity is awaiting for the hearing date.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes6">Additional Commisioner of Commercial Tax, Panaji</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes6">2020-06-26</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes6">Non Submission  of C-Form at the time of Assessment due to non receipt of C forms from the parties, but the same were submitted later</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes6">The demand raised is on account of non-production of Form 'C' in support of interstate sales. Management has submitted the respective forms before the Appellate Authority.The Company has filed an application under the settlement scheme 2023. Accordingly, out of total liability of Rs.19.27 lakhs, settlement benefit was availed by the Company of Rs. 12.25 lakhs and  the balance amount which is aggregating to Rs. 5.49 lakhs after deducting the pre deposit  will be paid by the Company in 9 equal installments and thereafter, this case shall stand closed.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes7">Securities and Exchange Board of India</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes7">2022-07-29</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes7">Violation of section clause 35 of the erstwhile equity Listing agreement ( effective till 30-Nov-2015 ) and Regulation 31(1) of the SEBI LODR 2015</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes7">As per the order, the Company was filing wrong information in quarterly shareholding pattern, which has led to violation of Section clause 35 of the erstwhile equity Listing agreement ( effective till 30-Nov-2015 ) and Regulation 31(1) of the SEBI LODR 2015.
+However there is condition in the order that the order will be applicable based on the hearing of SEBI vs Suzlon Energy Ltd, which is pending before Hon'ble Supreme Court
+Hence from the order it is evident that it is a conditional order based on the judgement of hearing of SEBI vs Suzlon Energy Ltd .</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes8">The Commissioner of Income Tax ( Appeals)</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes8">2022-09-20</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes8">Wrong additions made to income</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes8">Appeal filed was  towards Notice under Section 250. Department had wrongly added Dividend twice, raising a tax liability. An amount of Rs. 1,98,35,796/- was credited to P and L account and again department added back in the total income.
+And there were another 2 matters i.e allowance claimed by entity towards Superannuation and leave encashment provision, which the department has added back amounting to Rs. 5.49 lakhs. The  Company is awaiting a response from the authorities.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes9">The Commisioner ( Appeals) SGST</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes9">2024-08-28</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes9">Incorrect determination of tax liability</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes9">The hearing which was scheduled for February 10, 2025 was adjourned to February 24, 2025 and thereafter the matter was decided partly in favour of the Company as out of Rs. 10,36,904/- demanded the Company was directed to pay only Rs. 2,26,829/-   and for the interest and penalty , the Company has filed an appeal for the waiver of interest and penalty, and the Company is awaiting for the Order.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes10">Development Commissioner - Seepz Special Economic Zone</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes10">2015-02-12</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes10">Contravention of Foreign Trade Policy &amp; Procedure , DTA Sale made during the year 2007-08 to 2013-14 without permission from Development Commissioner , SEEPZ SEZ and the Positive NFE not achieved</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes10">The Development Commissioner had in its Order dated January 07, 2016  stated that the Company had Unauthorised DTA sales without entitlement in contravention to the provisions of Foreign Trade Policy &amp; Procedure hence liable for the penal action under Section 11 (2) of the Foreign Trade (  Development and Regulation ) Act 1992 and imposed a penalty of Rs. 10,00,000/-  In this matter, the Company has received a show cause notice wherein the authorities have levied a penalty from earlier Rs. 10,00,000/- to  Rs.17,00,000/-  for failure to achieve positive NFE for the year 2016-17 to 2018-19. The Company has filed its reply to the authorities with the necessary supporting documents to reduce this liability.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes11">Industrial Tribunal cum Labour Court</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes11">2021-05-25</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes11">Charter of Demands raised by the Workers’ Union on wage settlement</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes11">A Case no. 32/09 was filed for adjudication of Charter of Demands in the year 2009, by the Workmen of GKB Ophthalmics Limited represented by Goa Trade &amp; Commercial Workers’ Union against the Company ,  wherein an Award was passed by the  Industrial Tribunal Panjim-Goa dated 25/05/2021. The said Award was challenged by the Company vide writ petition no. WP/358/2021 filed in the Hon’ble  High Court of Bombay at Goa. Further based on the legal opinion, the Company has a good case in succeeding as the material facts were ignored while passing the Award. The case is being argued by our Senior Counsel to set aside the Award as it is strongly believed that grounds such as Industry cum Region formula, the financial position of the Company, comparable industries, etc., were not considered by the learned Industrial Tribunal while passing the said Award. Simultaneously, the said matter was also pending before the office of  Labour Commissioner for execution of the Award. Accordingly, the Company has received the Order on September 12, 2025  wherein the Labour Commissioner has ordered the recovery of Rs. 8,82,00,856/- from the Company with respect to the said award. However, the Company is not admitting the liability and the Company is in the process of challenging the Labour Commissioner's Order  before the Hon'ble High Court, seeking appropriate reliefs in this regard once the recovery certificate is issued by the concerned authority.</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+</xbrli:xbrl>

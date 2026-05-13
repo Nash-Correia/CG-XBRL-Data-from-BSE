@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:in-bse-cg="http://www.bseindia.com/xbrl/cg/2018-03-31/in-bse-cg" xmlns:in-bse-cg-roles="http://www.bseindia.com/xbrl/cg/2018-03-31/in-bse-cg-roles" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:in-bse-cg-type="http://www.bseindia.com/xbrl/cg/2018-03-31/in-bse-cg-types" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xl="http://www.xbrl.org/2003/XLink">
+  <link:schemaRef xlink:type="simple" xlink:href="in-bse-cg-2018-03-31.xsd" />
+  <xbrli:context id="MainD">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="MainI">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors1</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors1</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors2</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors2</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors3</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors3</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors4</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors4</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors5</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors5</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors6</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors6</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors7</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors7</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors8</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD8">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors8</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors9</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD9">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:CompositionOfBoardOfDirectorsAxis">
+        <in-bse-cg:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors9</in-bse-cg:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingBOD1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:MeetingOfBoardOfDirectorsAxis">
+        <in-bse-cg:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors1</in-bse-cg:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingBOD2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:MeetingOfBoardOfDirectorsAxis">
+        <in-bse-cg:MeetingOfBoardOfDirectorsDomain>MeetingOfBoardOfDirectors2</in-bse-cg:MeetingOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_MeetingComit1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2018-07-01</xbrli:startDate>
+      <xbrli:endDate>2018-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:MeetingOfCommitteesAxis">
+        <in-bse-cg:MeetingOfCommitteesDomain>MeetingOfCommittees1</in-bse-cg:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="MeetingComit1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/bse-cg/ScripCode">520131</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2018-09-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-bse-cg:MeetingOfCommitteesAxis">
+        <in-bse-cg:MeetingOfCommitteesDomain>MeetingOfCommittees1</in-bse-cg:MeetingOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <in-bse-cg:ScripCode contextRef="MainD">520131</in-bse-cg:ScripCode>
+  <in-bse-cg:ISIN contextRef="MainD">INE229E01019</in-bse-cg:ISIN>
+  <in-bse-cg:NameOfTheCompany contextRef="MainD">COASTAL ROADWAYS LIMITED</in-bse-cg:NameOfTheCompany>
+  <in-bse-cg:DateOfStartOfFinancialYear contextRef="MainI">2018-04-01</in-bse-cg:DateOfStartOfFinancialYear>
+  <in-bse-cg:DateOfEndOfFinancialYear contextRef="MainI">2019-03-31</in-bse-cg:DateOfEndOfFinancialYear>
+  <in-bse-cg:ReportingQuarter contextRef="MainD">Half Yearly</in-bse-cg:ReportingQuarter>
+  <in-bse-cg:DateOfReport contextRef="MainI">2018-09-30</in-bse-cg:DateOfReport>
+  <in-bse-cg:RiskManagementCommittee contextRef="MainD">false</in-bse-cg:RiskManagementCommittee>
+  <in-bse-cg:IsThereAnyChangeInCompositionOfBoardOfDirectorsFromPreviousQuarter contextRef="MainI">true</in-bse-cg:IsThereAnyChangeInCompositionOfBoardOfDirectorsFromPreviousQuarter>
+  <in-bse-cg:Title contextRef="D_CompBOD1">Mr</in-bse-cg:Title>
+  <in-bse-cg:NameOftheDirector contextRef="D_CompBOD1">KANHAIYA KUMAR TODI</in-bse-cg:NameOftheDirector>
+  <in-bse-cg:PositionOfDirectorInBoardOne contextRef="D_CompBOD1">Executive Director</in-bse-cg:PositionOfDirectorInBoardOne>
+  <in-bse-cg:PositionOfDirectorInBoardTwo contextRef="D_CompBOD1">Chairperson related to Promoter</in-bse-cg:PositionOfDirectorInBoardTwo>
+  <in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm contextRef="CompBOD1">2017-08-05</in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm>
+  <in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">2</in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:Title contextRef="D_CompBOD2">Mr</in-bse-cg:Title>
+  <in-bse-cg:NameOftheDirector contextRef="D_CompBOD2">BENI GOPAL DAGA</in-bse-cg:NameOftheDirector>
+  <in-bse-cg:PositionOfDirectorInBoardOne contextRef="D_CompBOD2">Non-Executive - Independent Director</in-bse-cg:PositionOfDirectorInBoardOne>
+  <in-bse-cg:PositionOfDirectorInBoardTwo contextRef="D_CompBOD2">Not Applicable</in-bse-cg:PositionOfDirectorInBoardTwo>
+  <in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm contextRef="CompBOD2">2014-08-05</in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm>
+  <in-bse-cg:TenureOfDirector contextRef="CompBOD2" unitRef="pure" decimals="INF">50</in-bse-cg:TenureOfDirector>
+  <in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">2</in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:Title contextRef="D_CompBOD3">Mr</in-bse-cg:Title>
+  <in-bse-cg:NameOftheDirector contextRef="D_CompBOD3">DIPAK DEY</in-bse-cg:NameOftheDirector>
+  <in-bse-cg:PositionOfDirectorInBoardOne contextRef="D_CompBOD3">Non-Executive - Independent Director</in-bse-cg:PositionOfDirectorInBoardOne>
+  <in-bse-cg:PositionOfDirectorInBoardTwo contextRef="D_CompBOD3">Not Applicable</in-bse-cg:PositionOfDirectorInBoardTwo>
+  <in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm contextRef="CompBOD3">2014-08-05</in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm>
+  <in-bse-cg:TenureOfDirector contextRef="CompBOD3" unitRef="pure" decimals="INF">50</in-bse-cg:TenureOfDirector>
+  <in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">2</in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:Title contextRef="D_CompBOD4">Mr</in-bse-cg:Title>
+  <in-bse-cg:NameOftheDirector contextRef="D_CompBOD4">OM PRAKASH KANORIA</in-bse-cg:NameOftheDirector>
+  <in-bse-cg:PositionOfDirectorInBoardOne contextRef="D_CompBOD4">Non-Executive - Independent Director</in-bse-cg:PositionOfDirectorInBoardOne>
+  <in-bse-cg:PositionOfDirectorInBoardTwo contextRef="D_CompBOD4">Not Applicable</in-bse-cg:PositionOfDirectorInBoardTwo>
+  <in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm contextRef="CompBOD4">2014-08-05</in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm>
+  <in-bse-cg:TenureOfDirector contextRef="CompBOD4" unitRef="pure" decimals="INF">50</in-bse-cg:TenureOfDirector>
+  <in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">3</in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:Title contextRef="D_CompBOD5">Mr</in-bse-cg:Title>
+  <in-bse-cg:NameOftheDirector contextRef="D_CompBOD5">SUSHIL KUMAR TODI</in-bse-cg:NameOftheDirector>
+  <in-bse-cg:PositionOfDirectorInBoardOne contextRef="D_CompBOD5">Executive Director</in-bse-cg:PositionOfDirectorInBoardOne>
+  <in-bse-cg:PositionOfDirectorInBoardTwo contextRef="D_CompBOD5">Not Applicable</in-bse-cg:PositionOfDirectorInBoardTwo>
+  <in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm contextRef="CompBOD5">2017-08-05</in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm>
+  <in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:Title contextRef="D_CompBOD6">Mr</in-bse-cg:Title>
+  <in-bse-cg:NameOftheDirector contextRef="D_CompBOD6">ASHOK KUMAR TODI</in-bse-cg:NameOftheDirector>
+  <in-bse-cg:PositionOfDirectorInBoardOne contextRef="D_CompBOD6">Executive Director</in-bse-cg:PositionOfDirectorInBoardOne>
+  <in-bse-cg:PositionOfDirectorInBoardTwo contextRef="D_CompBOD6">Not Applicable</in-bse-cg:PositionOfDirectorInBoardTwo>
+  <in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm contextRef="CompBOD6">2017-08-05</in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm>
+  <in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:Title contextRef="D_CompBOD7">Mrs</in-bse-cg:Title>
+  <in-bse-cg:NameOftheDirector contextRef="D_CompBOD7">SHIKHA TODI</in-bse-cg:NameOftheDirector>
+  <in-bse-cg:PositionOfDirectorInBoardOne contextRef="D_CompBOD7">Non-Executive - Non Independent Director</in-bse-cg:PositionOfDirectorInBoardOne>
+  <in-bse-cg:PositionOfDirectorInBoardTwo contextRef="D_CompBOD7">Not Applicable</in-bse-cg:PositionOfDirectorInBoardTwo>
+  <in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm contextRef="CompBOD7">2015-09-23</in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm>
+  <in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD7" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD7" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD7" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:Title contextRef="D_CompBOD8">Mr</in-bse-cg:Title>
+  <in-bse-cg:NameOftheDirector contextRef="D_CompBOD8">UDIT TODI</in-bse-cg:NameOftheDirector>
+  <in-bse-cg:PositionOfDirectorInBoardOne contextRef="D_CompBOD8">Executive Director</in-bse-cg:PositionOfDirectorInBoardOne>
+  <in-bse-cg:PositionOfDirectorInBoardTwo contextRef="D_CompBOD8">Not Applicable</in-bse-cg:PositionOfDirectorInBoardTwo>
+  <in-bse-cg:PositionOfDirectorInBoardThree contextRef="D_CompBOD8">CEO-MD</in-bse-cg:PositionOfDirectorInBoardThree>
+  <in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm contextRef="CompBOD8">2017-05-29</in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm>
+  <in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD8" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD8" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD8" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:Title contextRef="D_CompBOD9">Mr</in-bse-cg:Title>
+  <in-bse-cg:NameOftheDirector contextRef="D_CompBOD9">RAJA SARAOGI</in-bse-cg:NameOftheDirector>
+  <in-bse-cg:PositionOfDirectorInBoardOne contextRef="D_CompBOD9">Executive Director</in-bse-cg:PositionOfDirectorInBoardOne>
+  <in-bse-cg:PositionOfDirectorInBoardTwo contextRef="D_CompBOD9">Not Applicable</in-bse-cg:PositionOfDirectorInBoardTwo>
+  <in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm contextRef="CompBOD9">2017-05-29</in-bse-cg:DateOfAppointmentOfDirectorInTheCurrentTerm>
+  <in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD9" unitRef="pure" decimals="INF">1</in-bse-cg:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD9" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD9" unitRef="pure" decimals="INF">0</in-bse-cg:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-bse-cg:IsThereAnyChangeInCompositionOfCommitteesFromPreviousQuarter contextRef="MainI">false</in-bse-cg:IsThereAnyChangeInCompositionOfCommitteesFromPreviousQuarter>
+  <in-bse-cg:DatesOfMeetingInThePreviousQuarter contextRef="MeetingBOD1">2018-05-29</in-bse-cg:DatesOfMeetingInThePreviousQuarter>
+  <in-bse-cg:DatesOfMeetingIfAnyInTheRelevantQuarter contextRef="MeetingBOD2">2018-08-08</in-bse-cg:DatesOfMeetingIfAnyInTheRelevantQuarter>
+  <in-bse-cg:MaximumGapBetweenAnyTwoConsecutiveMeetings contextRef="MeetingBOD2" unitRef="pure" decimals="INF">70</in-bse-cg:MaximumGapBetweenAnyTwoConsecutiveMeetings>
+  <in-bse-cg:NameOfCommittee contextRef="D_MeetingComit1">Audit Committee</in-bse-cg:NameOfCommittee>
+  <in-bse-cg:DatesOfMeetingOfTheCommitteeInTheRelevantQuarter contextRef="MeetingComit1">2018-08-08</in-bse-cg:DatesOfMeetingOfTheCommitteeInTheRelevantQuarter>
+  <in-bse-cg:WhetherRequirementOfQuorumMet contextRef="D_MeetingComit1">true</in-bse-cg:WhetherRequirementOfQuorumMet>
+  <in-bse-cg:DetailsOfRequirementOfQuorumMet contextRef="D_MeetingComit1">3</in-bse-cg:DetailsOfRequirementOfQuorumMet>
+  <in-bse-cg:DatesOfMeetingOfTheCommitteeInThePreviousQuarter contextRef="MeetingComit1">2018-05-29</in-bse-cg:DatesOfMeetingOfTheCommitteeInThePreviousQuarter>
+  <in-bse-cg:MaximumGapBetweenAnyTwoConsecutiveMeetings contextRef="MeetingComit1" unitRef="pure" decimals="INF">70</in-bse-cg:MaximumGapBetweenAnyTwoConsecutiveMeetings>
+  <in-bse-cg:WhetherPriorApprovalOfAuditCommitteeObtained contextRef="MainD">NA</in-bse-cg:WhetherPriorApprovalOfAuditCommitteeObtained>
+  <in-bse-cg:WhetherShareholderApprovalObtainedForMaterialRPT contextRef="MainD">NA</in-bse-cg:WhetherShareholderApprovalObtainedForMaterialRPT>
+  <in-bse-cg:WhetherDetailsOfRptEnteredIntoPursuantToOmnibusApprovalHaveBeenReviewedByAuditCommittee contextRef="MainD">NA</in-bse-cg:WhetherDetailsOfRptEnteredIntoPursuantToOmnibusApprovalHaveBeenReviewedByAuditCommittee>
+  <in-bse-cg:TheCompositionOfBoardOfDirectorsIsInTermsOfSebiRegulations2015 contextRef="MainD">false</in-bse-cg:TheCompositionOfBoardOfDirectorsIsInTermsOfSebiRegulations2015>
+  <in-bse-cg:TheCompositionOfAuditCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-bse-cg:TheCompositionOfAuditCommitteeIsInTermsOfSebiRegulations2015>
+  <in-bse-cg:TheCompositionOfTheNominationAndRemunerationCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-bse-cg:TheCompositionOfTheNominationAndRemunerationCommitteeIsInTermsOfSebiRegulations2015>
+  <in-bse-cg:TheCompositionOfTheStakeholdersRelationshipCommitteeCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-bse-cg:TheCompositionOfTheStakeholdersRelationshipCommitteeCommitteeIsInTermsOfSebiRegulations2015>
+  <in-bse-cg:TheCompositionOfTheRiskManagementCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">NA</in-bse-cg:TheCompositionOfTheRiskManagementCommitteeIsInTermsOfSebiRegulations2015>
+  <in-bse-cg:TheCommitteeMembersHaveBeenMadeAwareOfTheirPowersRoleAndResponsibilitiesAsSpecifiedInSebiRegulations2015 contextRef="MainD">true</in-bse-cg:TheCommitteeMembersHaveBeenMadeAwareOfTheirPowersRoleAndResponsibilitiesAsSpecifiedInSebiRegulations2015>
+  <in-bse-cg:TheMeetingsOfTheBoardOfDirectorsAndTheAboveCommitteesHaveBeenConductedInTheMannerAsSpecifiedInSebiRegulations2015 contextRef="MainD">true</in-bse-cg:TheMeetingsOfTheBoardOfDirectorsAndTheAboveCommitteesHaveBeenConductedInTheMannerAsSpecifiedInSebiRegulations2015>
+  <in-bse-cg:ThisReportAndOrTheReportSubmittedInThePreviousQuarterHasBeenPlacedBeforeBoardOfDirectors contextRef="MainD">true</in-bse-cg:ThisReportAndOrTheReportSubmittedInThePreviousQuarterHasBeenPlacedBeforeBoardOfDirectors>
+  <in-bse-cg:DisclosureOfNotesToAnnexure1ExplanatoryTextBlock contextRef="MainD">&lt;DIV   &gt;
+&lt;DIV&gt;
+&lt;DIV&gt;
+&lt;DIV&gt;As per Regulation 15(2) of new SEBI(Listing Obligation &amp;amp; Disclosure Requirement)Regulation 2015,Compliance with the Corporate Governance shall not apply in respect of listed entity having paid up equity share capital not exceeding Rs 10 crore and net worth not exceeding Rs 25 crore,as on the last day of the previous financial year.&lt;/DIV&gt;
+&lt;DIV&gt;Our paid up capital is Rs 41465650 and net worth is Rs 123356493 as on 31st March 2018 as such compliance of Corporate Governance is not applicable for us.&lt;/DIV&gt;
+&lt;DIV&gt;However as a matter of good practice we enclosed herewith quaterly compliance report on Corporate Governance for quater ended 30-09-2018.&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</in-bse-cg:DisclosureOfNotesToAnnexure1ExplanatoryTextBlock>
+  <in-bse-cg:NameOfSignatoryForQuartelyAffirmations contextRef="MainD">SNEHA JAIN</in-bse-cg:NameOfSignatoryForQuartelyAffirmations>
+  <in-bse-cg:DesignationOfPersonForQuartelyAffirmations contextRef="MainD">Company Secretary and Compliance Office</in-bse-cg:DesignationOfPersonForQuartelyAffirmations>
+  <in-bse-cg:CopyOfTheAnnualReportIncludingBalanceSheetProfitAndLossAccountDirectorsReportCorporateGovernanceReportBusinessResponsibilityReportDisplayedOnWebsite contextRef="MainD">Yes</in-bse-cg:CopyOfTheAnnualReportIncludingBalanceSheetProfitAndLossAccountDirectorsReportCorporateGovernanceReportBusinessResponsibilityReportDisplayedOnWebsite>
+  <in-bse-cg:PresenceOfChairpersonOfAuditCommitteeAtTheAnnualGeneralMeeting contextRef="MainD">Yes</in-bse-cg:PresenceOfChairpersonOfAuditCommitteeAtTheAnnualGeneralMeeting>
+  <in-bse-cg:PresenceOfChairpersonOfTheNominationAndRemunerationCommitteeAtTheAnnualGeneralMeeting contextRef="MainD">Yes</in-bse-cg:PresenceOfChairpersonOfTheNominationAndRemunerationCommitteeAtTheAnnualGeneralMeeting>
+  <in-bse-cg:WhetherCorporateGovernanceReportDisclosedInAnnualReport contextRef="MainD">Yes</in-bse-cg:WhetherCorporateGovernanceReportDisclosedInAnnualReport>
+  <in-bse-cg:NameOfSignatoryForHalfYearlyAffirmations contextRef="MainD">SNEHA JAIN</in-bse-cg:NameOfSignatoryForHalfYearlyAffirmations>
+  <in-bse-cg:DesignationOfPersonForHalfYearlyAffirmations contextRef="MainD">Company Secretary and Compliance Office</in-bse-cg:DesignationOfPersonForHalfYearlyAffirmations>
+  <in-bse-cg:NameOfSignatory contextRef="MainD">SNEHA JAIN</in-bse-cg:NameOfSignatory>
+  <in-bse-cg:DesignationOfPerson contextRef="MainD">Company Secretary and Compliance Office</in-bse-cg:DesignationOfPerson>
+  <in-bse-cg:Place contextRef="MainD">KOLKATA</in-bse-cg:Place>
+  <in-bse-cg:DateOfSigning contextRef="MainI">2018-10-11</in-bse-cg:DateOfSigning>
+</xbrli:xbrl>

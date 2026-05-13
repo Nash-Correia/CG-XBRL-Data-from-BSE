@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--ICGIG-->
+<xbrli:xbrl xmlns:in-capmkt="http://www.sebi.gov.in/xbrl/2024-12-31/in-capmkt" xmlns:in-capmkt-ent="http://www.sebi.gov.in/xbrl/IntegratedGovernance/2024-12-31/in-capmkt/in-capmkt-ent" xmlns:in-capmkt-roles="http://www.sebi.gov.in/xbrl/IntegratedGovernance/2024-12-31/in-capmkt-roles" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:in-capmkt-types="http://www.sebi.gov.in/xbrl/2024-12-31/in-capmkt-types" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xl="http://www.xbrl.org/2003/XLink">
+  <link:schemaRef xlink:type="simple" xlink:href="in-capmkt-ent-2024-12-31.xsd" />
+  <xbrli:context id="MainD">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="MainI">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors1</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors1</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors2</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors2</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors3</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors3</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors4</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors4</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors5</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors5</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompBOD6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors6</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompBOD6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfBoardOfDirectorsAxis">
+        <in-capmkt:CompositionOfBoardOfDirectorsDomain>CompositionOfBoardOfDirectors6</in-capmkt:CompositionOfBoardOfDirectorsDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees14</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit14">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees14</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit41">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees41</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit41">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees41</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit68">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees68</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit68">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees68</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit69">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees69</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit69">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees69</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit95">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees95</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit95">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees95</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit96">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees96</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit96">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees96</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit122">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees122</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit122">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees122</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="D_CompComit123">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees123</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="CompComit123">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:CompositionOfCommitteesAxis">
+        <in-capmkt:CompositionOfCommitteesDomain>CompositionOfCommittees123</in-capmkt:CompositionOfCommitteesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="PY_I">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2024-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain1</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain2</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain3</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain4</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes5">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain5</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes6">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain6</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_OngoingTaxLitigationsOrDisputes7">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com/in-capmkt/ScripCode">511389</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-03-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="in-capmkt:OngoingTaxLitigationsOrDisputesAxis">
+        <in-capmkt:OngoingTaxLitigationsOrDisputesDomain>OngoingTaxLitigationsOrDisputesDomain7</in-capmkt:OngoingTaxLitigationsOrDisputesDomain>
+      </xbrldi:typedMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <in-capmkt:ScripCode contextRef="MainI">511389</in-capmkt:ScripCode>
+  <in-capmkt:Symbol contextRef="MainI">VIDEOIND</in-capmkt:Symbol>
+  <in-capmkt:MSEISymbol contextRef="MainI">NOTLISTED</in-capmkt:MSEISymbol>
+  <in-capmkt:ISIN contextRef="MainI">INE703A01011</in-capmkt:ISIN>
+  <in-capmkt:NameOfTheCompany contextRef="MainI">Videocon Industries Limited</in-capmkt:NameOfTheCompany>
+  <in-capmkt:DateOfStartOfFinancialYear contextRef="MainI">2024-04-01</in-capmkt:DateOfStartOfFinancialYear>
+  <in-capmkt:DateOfEndOfFinancialYear contextRef="MainI">2025-03-31</in-capmkt:DateOfEndOfFinancialYear>
+  <in-capmkt:ReportingQuarter contextRef="MainI">Yearly</in-capmkt:ReportingQuarter>
+  <in-capmkt:DateOfEndOfReportingPeriod contextRef="MainI">2025-03-31</in-capmkt:DateOfEndOfReportingPeriod>
+  <in-capmkt:TypeOfCompany contextRef="MainD">Equity</in-capmkt:TypeOfCompany>
+  <in-capmkt:WhetherPartAOfAnnexureIOfTheSEBICircularDated31December2024RelatedToComplianceReportOnCorporateGovernanceIsApplicableToTheEntity contextRef="MainD">true</in-capmkt:WhetherPartAOfAnnexureIOfTheSEBICircularDated31December2024RelatedToComplianceReportOnCorporateGovernanceIsApplicableToTheEntity>
+  <in-capmkt:WhetherPartBOfAnnexureIOfTheSEBICircularDated31December2024RelatedToInvestorGrievanceRedressalReportIsApplicableToTheEntity contextRef="MainD">true</in-capmkt:WhetherPartBOfAnnexureIOfTheSEBICircularDated31December2024RelatedToInvestorGrievanceRedressalReportIsApplicableToTheEntity>
+  <in-capmkt:WhetherPartCOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfAcquisitionOfSharesOrVotingRightsInUnlistedCompaniesIsApplicableToTheEntity contextRef="MainD">false</in-capmkt:WhetherPartCOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfAcquisitionOfSharesOrVotingRightsInUnlistedCompaniesIsApplicableToTheEntity>
+  <in-capmkt:ReasonForPartCOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfAcquisitionOfSharesOrVotingRightsInUnlistedCompaniesIsNotApplicableToTheEntity contextRef="MainD">During the reporting period there was no Acquisition of shares or voting rights in unlisted companies</in-capmkt:ReasonForPartCOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfAcquisitionOfSharesOrVotingRightsInUnlistedCompaniesIsNotApplicableToTheEntity>
+  <in-capmkt:WhetherPartDOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfImpositionOfFineOrPenaltyIsApplicableToTheEntity contextRef="MainD">false</in-capmkt:WhetherPartDOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfImpositionOfFineOrPenaltyIsApplicableToTheEntity>
+  <in-capmkt:ReasonForPartDOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfImpositionOfFineOrPenaltyIsNotApplicableToTheEntity contextRef="MainD">Videocon Industries Limited (the Company) was admitted to corporate insolvency resolution process (CIRP) in terms of the provisions of the Insolvency and Bankruptcy Code, 2016 (IBC Code), During the reporting period, the Company continues to remain under CIRP, with trading in its equity shares being suspended. Further, the Company has not been subjected to any material fines or penalties during the period under review.</in-capmkt:ReasonForPartDOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfImpositionOfFineOrPenaltyIsNotApplicableToTheEntity>
+  <in-capmkt:WhetherPartEOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfUpdatesToOngoingTaxLitigationsOrDisputesIsApplicableToTheEntity contextRef="MainD">true</in-capmkt:WhetherPartEOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfUpdatesToOngoingTaxLitigationsOrDisputesIsApplicableToTheEntity>
+  <in-capmkt:WhetherPartFOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfLoansOrGuaranteesOrComfortLettersOrSecuritiesEtcIsApplicableToTheEntity contextRef="MainD">false</in-capmkt:WhetherPartFOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfLoansOrGuaranteesOrComfortLettersOrSecuritiesEtcIsApplicableToTheEntity>
+  <in-capmkt:ReasonForPartFOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfLoansOrGuaranteesOrComfortLettersOrSecuritiesEtcIsNotApplicableToTheEntity contextRef="MainD">During the reporting period, the Company continues to remain under CIRP, with trading in its equity shares being suspended. Further, during the period under review, there were no events of giving any loans / guarantees / comfort letters and securities.</in-capmkt:ReasonForPartFOfAnnexureIOfTheSEBICircularDated31December2024RelatedToDisclosureOfLoansOrGuaranteesOrComfortLettersOrSecuritiesEtcIsNotApplicableToTheEntity>
+  <in-capmkt:RiskManagementCommittee contextRef="MainD">false</in-capmkt:RiskManagementCommittee>
+  <in-capmkt:MarketCapitalisationAsPerImmediatePreviousFinancialYear contextRef="MainD">Top 2000 listed entities</in-capmkt:MarketCapitalisationAsPerImmediatePreviousFinancialYear>
+  <in-capmkt:IsSCORESIDAvailable contextRef="MainI">true</in-capmkt:IsSCORESIDAvailable>
+  <in-capmkt:SCORESRegistrationID contextRef="MainI">v00081</in-capmkt:SCORESRegistrationID>
+  <in-capmkt:TypeOfSubmission contextRef="MainI">Original</in-capmkt:TypeOfSubmission>
+  <in-capmkt:RemarksWebsiteDissemination contextRef="MainI">Videocon Industries Limited (the Company) was admitted to corporate insolvency resolution process (CIRP) in terms of the provisions of the Insolvency and Bankruptcy Code, 2016 (IBC Code), and in pursuance to the order of the Honble National Company Law Tribunal, Mumbai (NCLT) dated June 06, 2018. Subsequently, the NCLT vide its order dated August 08, 2019, ordered the consolidation of the CIRP of 13 Videocon group entities including the Company (Corporate Debtors). Further, NCLT vide order dated June 08, 2021 (Approval Order), has approved the resolution plan submitted by Twin Star Technologies Limited (Approved Plan). In terms of the Approved Plan, a steering committee of the Company was constituted (Steering Committee). The Steering Committee in its meeting held on June 18, 2021, had appointed the Resolution Professional (RP), Mr. Abhijit Guhathakurta as the interim manager of the Corporate Debtors (IM), for undertaking the management and control the Company, from the date of Approval Order till the completion of the implementation process on the Closing Date (as provided under the Approved Plan). However, pursuant to the appeals filed by the Bank of Maharashtra and IFCI Limited before the Honble National Company Law Appellate Tribunal, New Delhi (the NCLAT), the Honble NCLAT has, vide its order dated July 19, 2021 in the said Appeals (the Stay Order), inter-alia stayed the operation of the NCLT Approval Order till the next date of hearing and ordered the maintenance of status quo anteas before passing of the NCLT Approval Order. Further, as per the Stay Order, the Resolution Professional has been directed to continue to manage the 13 Videocon Group Entities as per the provisions of the IBC Code till the next date of hearing. Thereafter, the NCLAT, vide its order dated January 05, 2022, set aside the Approval Order passed under section 31 of IBC Code approving the Resolution Plan of the Company submitted by Twin Star Technologies Limited. Accordingly, the matter is remitted back to Committee of Creditors for completion of the process relating to CIRP in accordance with the provisions of the IBC Code (the NCLAT Final Order). Subsequently, pursuant to the NCLAT Final Order, the COC in their meeting held on January 12, 2022, decided to invite fresh expressions of interest for submission of resolution plan for Consolidated Corporate Debtors in accordance with IBC and CIRP Regulations. However, Twin Star Technologies Limited challenged the NCLAT Final Order in Civil Appeals bearing numbers 509, 512 and 894 of 2022 before the Honble Supreme Court (SC Appeals). The SC Appeals were listed on February 14, 2022, on which date, the Honble Supreme Court made certain oral remark to the Resolution Professional and COC to not proceed further with the CIRP of the Consolidated Corporate Debtors till any orders in subsequent hearings. Pursuant to these oral remarks of the Honble Supreme Court, the status quo is being preserved in the current CIRP of Consolidated Corporate Debtors till further orders/directions of the Honble Supreme Court.</in-capmkt:RemarksWebsiteDissemination>
+  <in-capmkt:DisclosureOfNotesOnCompositionOfBoardOfDirectorsExplanatoryTextBlock contextRef="MainD">Videocon Industries Limited (the Company) was admitted to Corporate Insolvency Resolution Process (CIRP) in terms of the provisions of the Insolvency and Bankruptcy Code, 2016 (Code) and in pursuance to the order of the Honble National Company Law Tribunal, Mumbai (NCLT) dated June 06, 2018. Subsequently, the NCLT vide its order dated August 08, 2019 ordered the consolidation of the CIRP of 13 Videocon group entities including the Company (Corporate Debtors). Further, NCLT vide order dated June 08, 2021 (Approval Order), approved the resolution plan submitted by Twin Star Technologies Limited (Approved Plan).
+
+In terms of the Approved Plan, a steering committee of the Company had been constituted (Steering Committee). The Steering Committee in its meeting held on June 18, 2021 had appointed the Resolution Professional, Mr. Abhijit Guhathakurta, as the interim manager of the Corporate Debtors (Interim Manager), for undertaking the management and control the Company, from the date of Approval Order till the completion of the implementation process on the Closing Date (as provided under the Approved Plan).
+
+However, pursuant to the appeals filed by three dissenting financial creditors (among others) before the Honble National Company Law Appellate Tribunal, New Delhi (the NCLAT), the Honble NCLAT, vide its order dated July 19, 2021 in the said Appeals (the Stay Order), inter-alia stayed the operation of the NCLT Approval Order till the next date of hearing and ordered the maintenance of status quo ante as before passing of the NCLT Approval Order. Further, as per the Stay Order, the Resolution Professional had been directed to continue to manage the 13 Videocon Group Entities as per the provisions of the Code till the next date of hearing.
+
+Later on, the NCLAT vide its final order dated January 05, 2022 set aside the Approval Order and remitted back the matter to the Committee of Creditors (the COC) for completion of the process relating to CIRP in accordance with the provisions of the Code (the, NCLAT Final Order). Subsequently, pursuant to the NCLAT Final Order, the COC in their meeting held on January 12, 2022, decided to invite fresh expressions of interest for submission of resolution plan for Consolidated Corporate Debtors in accordance with IBC and CIRP Regulations.
+
+However, Twin Star Technologies Limited challenged the NCLAT Final Order in Civil Appeals bearing numbers 509, 512 and 894 of 2022 before the Honble Supreme Court (SC Appeals). The SC Appeals were listed on February 14, 2022, on which date, the Honble Supreme Court made certain oral remark to the Resolution Professional and COC to not proceed further with the CIRP of the Consolidated Corporate Debtors till any orders in subsequent hearings. Pursuant to these oral remarks of the Honble Supreme Court, the status quo is being preserved in the current CIRP of Consolidated Corporate Debtors till further orders/directions of the Honble Supreme Court.
+
+Post commencement of CIRP, the members at the general meeting held on December 17, 2018 had dissented the resolution for the appointment of Mr. Venugopal N Dhoot as director of the Company on account of majority of the Promoters, Promoters Group and person acting in concert dissenting to the said resolution i.e., voting against the resolution. However, the committee of creditors of the Company has not approved the resultant change in the management of the Company as required in terms of the Section 28 of the Code, in light of the ongoing CIRP of the Company. Thus, Mr. Venugopal Dhoot continues to be designated as a Director of the Company.
+
+Further, while the tenure of Mr. Venugopal Nandlal Dhoot as Managing Director and Chairman of the Company had ended on August 31, 2020, he continues to be designated as the Chief-Executive Officer of the Company in terms of his appointment on November 16, 2016.
+
+In addition, the resignation of Mrs. Sarita Sanjay Surve as the Independent, Non-Executive Director of the Company was received by the Resolution Professional on June 27, 2022 and the same was placed before the Committee of Creditors.
+</in-capmkt:DisclosureOfNotesOnCompositionOfBoardOfDirectorsExplanatoryTextBlock>
+  <in-capmkt:WhetherTheListedEntityHasARegularChairperson contextRef="MainD">true</in-capmkt:WhetherTheListedEntityHasARegularChairperson>
+  <in-capmkt:WhetherChairpersonIsRelatedToMDOrCEO contextRef="MainD">false</in-capmkt:WhetherChairpersonIsRelatedToMDOrCEO>
+  <in-capmkt:Title contextRef="D_CompBOD1">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD1">Venugopal Nandlal Dhoot</in-capmkt:NameOftheDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD1">Executive Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD1">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:PositionOfDirectorInBoardThree contextRef="D_CompBOD1">CEO</in-capmkt:PositionOfDirectorInBoardThree>
+  <in-capmkt:DateOfBirth contextRef="CompBOD1">1951-09-30</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD1">true</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:DateOfStartOfDisqualification contextRef="D_CompBOD1">2022-10-30</in-capmkt:DateOfStartOfDisqualification>
+  <in-capmkt:DateOfEndOfDisqualification contextRef="D_CompBOD1">2027-10-29</in-capmkt:DateOfEndOfDisqualification>
+  <in-capmkt:DetailsOfDisqualificationOfDirector contextRef="D_CompBOD1">Mr. Venugopal N Dhoot has incurred disqualification under section 164(2) of the Companies Act, 2013 from October 30, 2022 due to the non-filing of financial statements and annual returns of the Company for the last three financial years i.e. for the financial year 2019-20, 2020-21 and 2021-22.</in-capmkt:DetailsOfDisqualificationOfDirector>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD1">Inactive</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD1">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD1">2005-06-01</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:DateOfReappointmentOfDirector contextRef="CompBOD1">2016-11-11</in-capmkt:DateOfReappointmentOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD1" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:Title contextRef="D_CompBOD2">Mrs</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD2">Sarita Sanjay Surve</in-capmkt:NameOftheDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD2">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD2">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:PositionOfDirectorInBoardThree contextRef="D_CompBOD2">Shareholder Director</in-capmkt:PositionOfDirectorInBoardThree>
+  <in-capmkt:DateOfBirth contextRef="CompBOD2">1978-09-26</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD2">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD2">Inactive</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD2">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD2">2017-02-11</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:DateOfReappointmentOfDirector contextRef="CompBOD2">2017-12-22</in-capmkt:DateOfReappointmentOfDirector>
+  <in-capmkt:TenureOfDirector contextRef="CompBOD2" unitRef="pure" decimals="INF">55</in-capmkt:TenureOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD2" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:DisclosureOfNotesInAbsenceOfPANTextBlock contextRef="D_CompBOD2">The Company is required to fill details regarding the composition of statutory committees that are required to be constituted as per the SEBI LODR. The statutory committees as per SEBI LODR are: (i) Audit Committee, (ii) Nomination and Remuneration Committee, (iii) Stakeholders Relationship Committee and (iv) Risk Management Committee (wherever applicable).
+
+Since the Company is under the Corporate Insolvency Resolution Process (the CIRP), the powers of the Board of Directors of the Company stand suspended and the same are being vested with and exercised by the Resolution Professional. Accordingly, the provisions of Regulations 17, 18, 19, 20 and 21 of the SEBI LODR do not apply as per Regulation 15 (2A) and (2B) of the SEBI LODR.
+
+During the tenure of ongoing CIRP of the Company, certain directors have vacated their office from the Company, and therefore the composition of the Board and the Committees is not adequate.
+
+It is submitted that one of the directors i.e., Mrs. Sarita Sanjay Surve, (who was the sole member on the various of Board of the Committees of the Company) has tendered resignation w.e.f June 27, 2022, which was received by the Resolution Professional on June 27, 2022 and the same was placed before the Committee of Creditors.
+
+After her resignation, the current composition of committees viz., Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee came down to 'Nil'. Therefore, since there are no members and/or the Chairperson on the Board of the Committees, we have no data to fill in the composition of aforesaid committees.
+
+Pertaining to the above-mentioned constraints, we are unable to successfully validate the Excel utility sheet of CGR. As an alternative to resolve this issue and validate the file, we have retained the name of Mrs. Sarita Surve in the composition of Board and the committees viz., Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee. However, it should be noted that Mrs. Sarita Surve is not continuing as the member of the Board and the aforesaid committees w.e.f June 27, 2022.
+</in-capmkt:DisclosureOfNotesInAbsenceOfPANTextBlock>
+  <in-capmkt:Title contextRef="D_CompBOD3">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD3">Sanjay Kumar Palecha</in-capmkt:NameOftheDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD3">Executive Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD3">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:DateOfBirth contextRef="CompBOD3">1970-03-09</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD3">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD3">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD3">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD3">2023-09-14</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:TenureOfDirector contextRef="CompBOD3" unitRef="pure" decimals="INF">18</in-capmkt:TenureOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD3" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:Title contextRef="D_CompBOD4">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD4">Babubhai Dolatsinh Vaghela</in-capmkt:NameOftheDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD4">Executive Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD4">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:DateOfBirth contextRef="CompBOD4">1965-12-12</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD4">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD4">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD4">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD4">2023-09-14</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:TenureOfDirector contextRef="CompBOD4" unitRef="pure" decimals="INF">18</in-capmkt:TenureOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD4" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:Title contextRef="D_CompBOD5">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD5">Amol Ashok Mandlik</in-capmkt:NameOftheDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD5">Executive Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD5">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:DateOfBirth contextRef="CompBOD5">1978-01-26</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD5">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD5">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD5">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD5">2023-10-31</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:TenureOfDirector contextRef="CompBOD5" unitRef="pure" decimals="INF">17</in-capmkt:TenureOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">2</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD5" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:Title contextRef="D_CompBOD6">Mr</in-capmkt:Title>
+  <in-capmkt:NameOftheDirector contextRef="D_CompBOD6">Kalidas Vishnu Jadhav</in-capmkt:NameOftheDirector>
+  <in-capmkt:PositionOfDirectorInBoardOne contextRef="D_CompBOD6">Executive Director</in-capmkt:PositionOfDirectorInBoardOne>
+  <in-capmkt:PositionOfDirectorInBoardTwo contextRef="D_CompBOD6">Not Applicable</in-capmkt:PositionOfDirectorInBoardTwo>
+  <in-capmkt:DateOfBirth contextRef="CompBOD6">1972-01-14</in-capmkt:DateOfBirth>
+  <in-capmkt:WhetherTheDirectorIsDisqualified contextRef="D_CompBOD6">false</in-capmkt:WhetherTheDirectorIsDisqualified>
+  <in-capmkt:CurrentStatusDirector contextRef="D_CompBOD6">Active</in-capmkt:CurrentStatusDirector>
+  <in-capmkt:WhetherSpecialResolutionPassed contextRef="D_CompBOD6">NA</in-capmkt:WhetherSpecialResolutionPassed>
+  <in-capmkt:DateOfAppointmentOfDirector contextRef="CompBOD6">2023-10-31</in-capmkt:DateOfAppointmentOfDirector>
+  <in-capmkt:TenureOfDirector contextRef="CompBOD6" unitRef="pure" decimals="INF">17</in-capmkt:TenureOfDirector>
+  <in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">1</in-capmkt:NumberOfDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfIndependentDirectorshipInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfMembershipsInAuditOrStakeholderCommitteesIncludingThisListedEntity>
+  <in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity contextRef="CompBOD6" unitRef="pure" decimals="INF">0</in-capmkt:NumberOfPostOfChairpersonInAuditOrStakeholderCommitteeHeldInListedEntitiesIncludingThisListedEntity>
+  <in-capmkt:DisclosureOfNotesOnCompositionOfCommitteesExplanatoryTextBlock contextRef="MainD">Videocon Industries Limited (the Company) was admitted to Corporate Insolvency Resolution Process (CIRP) in terms of the provisions of the Insolvency and Bankruptcy Code, 2016 (Code) and in pursuance to the order of the Honble National Company Law Tribunal, Mumbai (NCLT) dated June 06, 2018. Subsequently, the NCLT vide its order dated August 08, 2019 ordered the consolidation of the CIRP of 13 Videocon group entities including the Company (Corporate Debtors). Further, NCLT vide order dated June 08, 2021 (Approval Order),  approved the resolution plan submitted by Twin Star Technologies Limited (Approved Plan). 
+
+In terms of the Approved Plan, a steering committee of the Company had been constituted (Steering Committee). The Steering Committee in its meeting held on June 18, 2021 had appointed the Resolution Professional, Mr. Abhijit Guhathakurta, as the interim manager of the Corporate Debtors (Interim Manager), for undertaking the management and control the Company, from the date of Approval Order till the completion of the implementation process on the Closing Date (as provided under the Approved Plan).
+
+However, pursuant to the appeals filed by three dissenting financial creditors (among others) before the Honble National Company Law Appellate Tribunal, New Delhi (the NCLAT), the Honble NCLAT, vide its order dated July 19, 2021 in the said Appeals (the Stay Order), inter-alia stayed the operation of the NCLT Approval Order till the next date of hearing and ordered the maintenance of status quo ante as before passing of the NCLT Approval Order. Further, as per the Stay Order, the Resolution Professional had been directed to continue to manage the 13 Videocon Group Entities as per the provisions of the Code till the next date of hearing.
+
+Later on, the NCLAT vide its final order dated January 05, 2022 set aside the Approval Order and remitted back the matter to the Committee of Creditors (the COC) for completion of the process relating to CIRP in accordance with the provisions of the Code (the, NCLAT Final Order). Subsequently, pursuant to the NCLAT Final Order, the COC in their meeting held on January 12, 2022, decided to invite fresh expressions of interest for submission of resolution plan for Consolidated Corporate Debtors in accordance with IBC and CIRP Regulations. 
+
+However, Twin Star Technologies Limited challenged the NCLAT Final Order in Civil Appeals bearing numbers 509, 512 and 894 of 2022 before the Honble Supreme Court (SC Appeals). The SC Appeals were listed on February 14, 2022, on which date, the Honble Supreme Court made certain oral remark to the Resolution Professional and COC to not proceed further with the CIRP of the Consolidated Corporate Debtors till any orders in subsequent hearings. Pursuant to these oral remarks of the Honble Supreme Court, the status quo is being preserved in the current CIRP of Consolidated Corporate Debtors till further orders/directions of the Honble Supreme Court.
+
+Further, the resignation of Mrs. Sarita Sanjay Surve as the Independent, Non-Executive Director of the Company was received by the Resolution Professional on June 27, 2022 and the same was placed before the Committee of Creditors. Therefore, there are no members on the Statutory Committees of the Board.</in-capmkt:DisclosureOfNotesOnCompositionOfCommitteesExplanatoryTextBlock>
+  <in-capmkt:WhetherTheAuditCommitteeHasARegularChairperson contextRef="MainD">false</in-capmkt:WhetherTheAuditCommitteeHasARegularChairperson>
+  <in-capmkt:WhetherTheNominationAndRemunerationCommitteeHasARegularChairperson contextRef="MainD">false</in-capmkt:WhetherTheNominationAndRemunerationCommitteeHasARegularChairperson>
+  <in-capmkt:WhetherTheStakeholdersRelationshipCommitteeHasARegularChairperson contextRef="MainD">false</in-capmkt:WhetherTheStakeholdersRelationshipCommitteeHasARegularChairperson>
+  <in-capmkt:WhetherTheRiskManagementCommitteeHasARegularChairperson contextRef="MainD">false</in-capmkt:WhetherTheRiskManagementCommitteeHasARegularChairperson>
+  <in-capmkt:WhetherTheCorporateSocialResponsibilityCommitteeHasARegularChairperson contextRef="MainD">false</in-capmkt:WhetherTheCorporateSocialResponsibilityCommitteeHasARegularChairperson>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit14">Audit Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit14">Sarita Sanjay Surve</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit14">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit14">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit14">2017-09-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:DisclosureOfNotesOnCommitteeTextBlock contextRef="D_CompComit14">The Company is required to fill details regarding the composition of statutory committees that are required to be constituted as per the SEBI LODR. The statutory committees as per SEBI LODR are: (i)Audit Committee, (ii) Nomination and Remuneration Committee, (iii) Stakeholders Relationship Committee and (iv) Risk Management Committee (wherever applicable).
+
+Since the Company is under the Corporate Insolvency Resolution Process (the CIRP), the powers of the Board of Directors of the Company stand suspended and the same are being vested with and exercised by the Resolution Professional. Accordingly, the provisions of Regulations 17, 18, 19, 20 and 21 of the SEBI LODR do not apply as per Regulation 15 (2A) and (2B) of the SEBI LODR.
+
+During the tenure of ongoing CIRP of the Company, certain directors have vacated their office from the Company, and therefore the composition of the Board and the Committees is not adequate.
+
+It is submitted that one of the directors i.e., Mrs. Sarita Sanjay Surve, (who was the sole member on the various of Board of the Committees of the Company) has tendered resignation w.e.f June 27, 2022, which was received by the Resolution Professional on June 27, 2022 and the same was placed before the Committee of Creditors.
+
+After her resignation, the current composition of committees viz., Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee came down to 'Nil'. Therefore, since there are no members and/or the Chairperson on the Board of the Committees, we have no data to fill in the composition of aforesaid committees.
+
+Pertaining to the above-mentioned constraints, we are unable to successfully validate the Excel utility sheet of CGR. As an alternative to resolve this issue and validate the file, we have retained the name of Mrs. Sarita Surve in the composition of committees of Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee. However, it should be noted that Mrs. Sarita Surve is not continuing as the member of the aforesaid committees w.e.f June 27, 2022.</in-capmkt:DisclosureOfNotesOnCommitteeTextBlock>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit41">Nomination and remuneration committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit41">Sarita Sanjay Surve</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit41">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit41">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit41">2017-09-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:DisclosureOfNotesOnCommitteeTextBlock contextRef="D_CompComit41">The Company is required to fill details regarding the composition of statutory committees that are required to be constituted as per the SEBI LODR. The statutory committees as per SEBI LODR are: (i)Audit Committee, (ii) Nomination and Remuneration Committee, (iii) Stakeholders Relationship Committee and (iv) Risk Management Committee (wherever applicable).
+
+Since the Company is under the Corporate Insolvency Resolution Process (the CIRP), the powers of the Board of Directors of the Company stand suspended and the same are being vested with and exercised by the Resolution Professional. Accordingly, the provisions of Regulations 17, 18, 19, 20 and 21 of the SEBI LODR do not apply as per Regulation 15 (2A) and (2B) of the SEBI LODR.
+
+During the tenure of ongoing CIRP of the Company, certain directors have vacated their office from the Company, and therefore the composition of the Board and the Committees is not adequate.
+
+It is submitted that one of the directors i.e., Mrs. Sarita Sanjay Surve, (who was the sole member on the various of Board of the Committees of the Company) has tendered resignation w.e.f June 27, 2022, which was received by the Resolution Professional on June 27, 2022 and the same was placed before the Committee of Creditors.
+
+After her resignation, the current composition of committees viz., Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee came down to 'Nil'. Therefore, since there are no members and/or the Chairperson on the Board of the Committees, we have no data to fill in the composition of aforesaid committees.
+
+Pertaining to the above-mentioned constraints, we are unable to successfully validate the Excel utility sheet of CGR. As an alternative to resolve this issue and validate the file, we have retained the name of Mrs. Sarita Surve in the composition of committees of Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee. However, it should be noted that Mrs. Sarita Surve is not continuing as the member of the aforesaid committees w.e.f June 27, 2022.</in-capmkt:DisclosureOfNotesOnCommitteeTextBlock>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit68">Stakeholders Relationship Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit68">Venugopal Nandlal Dhoot</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit68">Executive Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit68">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit68">2017-09-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:DisclosureOfNotesOnCommitteeTextBlock contextRef="D_CompComit68">The Company is required to fill details regarding the composition of statutory committees that are required to be constituted as per the SEBI LODR. The statutory committees as per SEBI LODR are: (i)Audit Committee, (ii) Nomination and Remuneration Committee, (iii) Stakeholders Relationship Committee and (iv) Risk Management Committee (wherever applicable).
+
+Since the Company is under the Corporate Insolvency Resolution Process (the CIRP), the powers of the Board of Directors of the Company stand suspended and the same are being vested with and exercised by the Resolution Professional. Accordingly, the provisions of Regulations 17, 18, 19, 20 and 21 of the SEBI LODR do not apply as per Regulation 15 (2A) and (2B) of the SEBI LODR.
+
+During the tenure of ongoing CIRP of the Company, certain directors have vacated their office from the Company, and therefore the composition of the Board and the Committees is not adequate.
+
+It is submitted that one of the directors i.e., Mrs. Sarita Sanjay Surve, (who was the sole member on the various of Board of the Committees of the Company) has tendered resignation w.e.f June 27, 2022, which was received by the Resolution Professional on June 27, 2022 and the same was placed before the Committee of Creditors.
+
+After her resignation, the current composition of committees viz., Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee came down to 'Nil'. Therefore, since there are no members and/or the Chairperson on the Board of the Committees, we have no data to fill in the composition of aforesaid committees.
+
+Pertaining to the above-mentioned constraints, we are unable to successfully validate the Excel utility sheet of CGR. As an alternative to resolve this issue and validate the file, we have retained the name of Mrs. Sarita Surve in the composition of committees of Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee. However, it should be noted that Mrs. Sarita Surve is not continuing as the member of the aforesaid committees w.e.f June 27, 2022.</in-capmkt:DisclosureOfNotesOnCommitteeTextBlock>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit69">Stakeholders Relationship Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit69">Sarita Sanjay Surve</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit69">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit69">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit69">2017-09-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:DisclosureOfNotesOnCommitteeTextBlock contextRef="D_CompComit69">During the ongoing CIRP, certain directors have vacated their office from the Company, and therefore the composition of the Board and the Committees is not adequate. It is submitted that one of the directors i.e. Mrs. Sarita Sanjay Surve, who was the sole member on the various Committees of the Company has tendered resignation w.e.f 27.06.2022, which was received by RP on 27.06.2022 and the same was placed before CoC. After her resignation, the current composition came down to 'Nil'.</in-capmkt:DisclosureOfNotesOnCommitteeTextBlock>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit95">Risk Management Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit95">Venugopal Nandlal Dhoot</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit95">Executive Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit95">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit95">2017-09-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit96">Risk Management Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit96">Sarita Sanjay Surve</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit96">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit96">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit96">2017-09-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:DisclosureOfNotesOnCommitteeTextBlock contextRef="D_CompComit96">The Company is required to fill details regarding the composition of statutory committees that are required to be constituted as per the SEBI LODR. The statutory committees as per SEBI LODR are: (i)Audit Committee, (ii) Nomination and Remuneration Committee, (iii) Stakeholders Relationship Committee and (iv) Risk Management Committee (wherever applicable).
+
+Since the Company is under the Corporate Insolvency Resolution Process (the CIRP), the powers of the Board of Directors of the Company stand suspended and the same are being vested with and exercised by the Resolution Professional. Accordingly, the provisions of Regulations 17, 18, 19, 20 and 21 of the SEBI LODR do not apply as per Regulation 15 (2A) and (2B) of the SEBI LODR.
+
+During the tenure of ongoing CIRP of the Company, certain directors have vacated their office from the Company, and therefore the composition of the Board and the Committees is not adequate.
+
+It is submitted that one of the directors i.e., Mrs. Sarita Sanjay Surve, (who was the sole member on the various of Board of the Committees of the Company) has tendered resignation w.e.f June 27, 2022, which was received by the Resolution Professional on June 27, 2022 and the same was placed before the Committee of Creditors.
+
+After her resignation, the current composition of committees viz., Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee came down to 'Nil'. Therefore, since there are no members and/or the Chairperson on the Board of the Committees, we have no data to fill in the composition of aforesaid committees.
+
+Pertaining to the above-mentioned constraints, we are unable to successfully validate the Excel utility sheet of CGR. As an alternative to resolve this issue and validate the file, we have retained the name of Mrs. Sarita Surve in the composition of committees of Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee. However, it should be noted that Mrs. Sarita Surve is not continuing as the member of the aforesaid committees w.e.f June 27, 2022.</in-capmkt:DisclosureOfNotesOnCommitteeTextBlock>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit122">Corporate Social Responsibility Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit122">Venugopal Nandlal Dhoot</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit122">Executive Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit122">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit122">2017-09-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:NameOfCommittee contextRef="D_CompComit123">Corporate Social Responsibility Committee</in-capmkt:NameOfCommittee>
+  <in-capmkt:NameOfCommitteeMembers contextRef="D_CompComit123">Sarita Sanjay Surve</in-capmkt:NameOfCommitteeMembers>
+  <in-capmkt:PositionOfDirectorInCommitteeOne contextRef="D_CompComit123">Non-Executive - Independent Director</in-capmkt:PositionOfDirectorInCommitteeOne>
+  <in-capmkt:PositionOfDirectorInCommitteeTwo contextRef="D_CompComit123">Member</in-capmkt:PositionOfDirectorInCommitteeTwo>
+  <in-capmkt:DateOfAppointmentOfDirectorInCommittee contextRef="CompComit123">2017-09-22</in-capmkt:DateOfAppointmentOfDirectorInCommittee>
+  <in-capmkt:DisclosureOfNotesOnCommitteeTextBlock contextRef="D_CompComit123">The Company is required to fill details regarding the composition of statutory committees that are required to be constituted as per the SEBI LODR. The statutory committees as per SEBI LODR are: (i)Audit Committee, (ii) Nomination and Remuneration Committee, (iii) Stakeholders Relationship Committee and (iv) Risk Management Committee (wherever applicable).
+
+Since the Company is under the Corporate Insolvency Resolution Process (the CIRP), the powers of the Board of Directors of the Company stand suspended and the same are being vested with and exercised by the Resolution Professional. Accordingly, the provisions of Regulations 17, 18, 19, 20 and 21 of the SEBI LODR do not apply as per Regulation 15 (2A) and (2B) of the SEBI LODR.
+
+During the tenure of ongoing CIRP of the Company, certain directors have vacated their office from the Company, and therefore the composition of the Board and the Committees is not adequate.
+
+It is submitted that one of the directors i.e., Mrs. Sarita Sanjay Surve, (who was the sole member on the various of Board of the Committees of the Company) has tendered resignation w.e.f June 27, 2022, which was received by the Resolution Professional on June 27, 2022 and the same was placed before the Committee of Creditors.
+
+After her resignation, the current composition of committees viz., Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee came down to 'Nil'. Therefore, since there are no members and/or the Chairperson on the Board of the Committees, we have no data to fill in the composition of aforesaid committees.
+
+Pertaining to the above-mentioned constraints, we are unable to successfully validate the Excel utility sheet of CGR. As an alternative to resolve this issue and validate the file, we have retained the name of Mrs. Sarita Surve in the composition of committees of Audit Committee, Nomination and Remuneration Committee and Stakeholders Relationship Committee. However, it should be noted that Mrs. Sarita Surve is not continuing as the member of the aforesaid committees w.e.f June 27, 2022.</in-capmkt:DisclosureOfNotesOnCommitteeTextBlock>
+  <in-capmkt:DisclosureOfNotesOnMeetingOfBoardOfDirectorsExplanatoryTextBlock contextRef="MainD">Videocon entered into CIRP in 2018 and its resolution plan was approved in June 2021 which was challenged in January 2022 the NCLAT set aside the approval order leading to the COC inviting fresh expressions of interest. However Twin Star challenged the NCLATs Final Order before the Supreme Court which ordered the preservation of status quo until further orders or directions
+
+The Boards powers are suspended and the Directors are required to extend cooperation to the RP  No meetings were held for the quarter ended 31 03 2025
+</in-capmkt:DisclosureOfNotesOnMeetingOfBoardOfDirectorsExplanatoryTextBlock>
+  <in-capmkt:DisclosureOfNotesOnMeetingOfCommitteesExplanatoryTextBlock contextRef="MainD">Videocon entered into CIRP in 2018 and its resolution plan was approved in June 2021 which was challenged in January 2022 the NCLAT set aside the approval order leading to the COC inviting fresh expressions of interest. However Twin Star challenged the NCLATs Final Order before the Supreme Court which ordered the preservation of status quo until further orders or directions.
+
+The Boards powers are suspended and the Directors are required to extend cooperation to the RP. No committees meetings were held for the quarter ended 31.03.2025.
+
+</in-capmkt:DisclosureOfNotesOnMeetingOfCommitteesExplanatoryTextBlock>
+  <in-capmkt:TheCompositionOfBoardOfDirectorsIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCompositionOfBoardOfDirectorsIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCompositionOfAuditCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCompositionOfAuditCommitteeIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCompositionOfTheNominationAndRemunerationCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCompositionOfTheNominationAndRemunerationCommitteeIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCompositionOfTheStakeholdersRelationshipCommitteeCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCompositionOfTheStakeholdersRelationshipCommitteeCommitteeIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCompositionOfTheRiskManagementCommitteeIsInTermsOfSebiRegulations2015 contextRef="MainD">NA</in-capmkt:TheCompositionOfTheRiskManagementCommitteeIsInTermsOfSebiRegulations2015>
+  <in-capmkt:TheCommitteeMembersHaveBeenMadeAwareOfTheirPowersRoleAndResponsibilitiesAsSpecifiedInSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheCommitteeMembersHaveBeenMadeAwareOfTheirPowersRoleAndResponsibilitiesAsSpecifiedInSebiRegulations2015>
+  <in-capmkt:TheMeetingsOfTheBoardOfDirectorsAndTheAboveCommitteesHaveBeenConductedInTheMannerAsSpecifiedInSebiRegulations2015 contextRef="MainD">true</in-capmkt:TheMeetingsOfTheBoardOfDirectorsAndTheAboveCommitteesHaveBeenConductedInTheMannerAsSpecifiedInSebiRegulations2015>
+  <in-capmkt:ThisReportAndOrTheReportSubmittedInThePreviousQuarterHasBeenPlacedBeforeBoardOfDirectors contextRef="MainD">true</in-capmkt:ThisReportAndOrTheReportSubmittedInThePreviousQuarterHasBeenPlacedBeforeBoardOfDirectors>
+  <in-capmkt:DisclosureOfNotesToAnnexure1ExplanatoryTextBlock contextRef="MainD">Comment with regard to Point No 1 to 4 and 7
+
+ From the date of Stay Order i.e. July 19 2021 the Company was once again brought under the purview of CIRP from July 19 2021 suspending board powers and placing them with the Resolution Professional making some SEBI LODR provisions inapplicable. NCLATs January 5 2022 order invited fresh Expression of Interest but Honble Supreme Courts oral remarks on Feb 14 2022 preserved the status quo. Thus the company is managed by the Resolution Professional and some board related provisions and meetings are exempted. Therefore point 1 to 4 and 7 are marked as YES
+
+Comment w.r.t. Point No. 5
+The provisions pertaining to Risk Management Committee in terms of LODR is not applicable to the Company. Accordingly, the same has been marked as NA.
+
+Comment w.r.t. Point No. 6:
+At the time of appointment, the committee members were made aware of their powers, roles and responsibilities as required under SEBI (LODR), 2015. Accordingly, the comment has been marked as "YES".
+
+Comment w.r.t Point No. 8
+From the date of Stay Order i.e. July 19, 2021 the Company has been brought under the purview of CIRP and since the status quo is maintained the management has been re-instated in the hands of the Resolution Professional and accordingly, the powers of the Board of Directors of the Company stand suspended and the same are being vested with and exercised by the Resolution Professional, appointed under the provisions of Code. 
+
+In view of the order passed by the NCLAT on January 05, 2022 setting aside the Approval Order, the management of the Company retained in the hands of the Resolution Professional and the Company proceeded to invite fresh Expression of Interest from public.  However, Twin Star Technologies Limited challenged the NCLAT Final Order in Civil Appeals bearing numbers 509, 512 and 894 of 2022 before the Honble Supreme Court (SC Appeals). The SC Appeals were listed on February 14, 2022, on which date, the Honble Supreme Court made certain oral remark to the Resolution Professional and COC to not proceed further with the CIRP of the Consolidated Corporate Debtors till any orders in subsequent hearings. Pursuant to these oral remarks of the Honble Supreme Court, the status quo is being preserved in the current CIRP of Consolidated Corporate Debtors till further orders/directions of the Honble Supreme Court and currently the powers of the board of directors stand vested with and are being exercised by the Resolution Professional, appointed under the provisions of Code.
+
+Accordingly, report for the quarter ended December 31, 2024 has been taken on record by the Resolution Professional. However, as the option Not Applicable is not present under Comment 8 the same has been marked as "YES".</in-capmkt:DisclosureOfNotesToAnnexure1ExplanatoryTextBlock>
+  <in-capmkt:NameOfSignatoryForQuartelyAffirmations contextRef="MainD">AMOL ASHOK MANDLIK</in-capmkt:NameOfSignatoryForQuartelyAffirmations>
+  <in-capmkt:DesignationOfPersonForQuartelyAffirmations contextRef="MainD">Director</in-capmkt:DesignationOfPersonForQuartelyAffirmations>
+  <in-capmkt:DetailsOfBusiness contextRef="MainD">Yes</in-capmkt:DetailsOfBusiness>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichDetailsOfBusinessIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/AboutUS.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichDetailsOfBusinessIsPlaced>
+  <in-capmkt:MemorandumOfAssociationAndArticlesOfAssociation contextRef="MainD">Yes</in-capmkt:MemorandumOfAssociationAndArticlesOfAssociation>
+  <in-capmkt:DisclosureWebLinkOfMemorandumOfAssociationAndArticlesOfAssociationIsPlaced contextRef="MainD">https://videoconindustriesltd.com/Others.aspx</in-capmkt:DisclosureWebLinkOfMemorandumOfAssociationAndArticlesOfAssociationIsPlaced>
+  <in-capmkt:BriefProfileOfBoardOfDirectorsIncludingDirectorshipAndFullTimePositionsInBodyCorporates contextRef="MainD">NA</in-capmkt:BriefProfileOfBoardOfDirectorsIncludingDirectorshipAndFullTimePositionsInBodyCorporates>
+  <in-capmkt:TermsAndConditionsOfAppointmentOfIndependentDirectors contextRef="MainD">Yes</in-capmkt:TermsAndConditionsOfAppointmentOfIndependentDirectors>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichTermsAndConditionsOfAppointmentOfIndependentDirectorsIsPlaced contextRef="MainD">https://videoconindustriesltd.com/Others.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichTermsAndConditionsOfAppointmentOfIndependentDirectorsIsPlaced>
+  <in-capmkt:CompositionOfVariousCommitteesOfBoardOfDirectors contextRef="MainD">Yes</in-capmkt:CompositionOfVariousCommitteesOfBoardOfDirectors>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichCompositionOfVariousCommitteesOfBoardOfDirectorsIsPlaced contextRef="MainD">https://videoconindustriesltd.com/Others.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichCompositionOfVariousCommitteesOfBoardOfDirectorsIsPlaced>
+  <in-capmkt:CodeOfConductOfBoardOfDirectorsAndSeniorManagementPersonnel contextRef="MainD">Yes</in-capmkt:CodeOfConductOfBoardOfDirectorsAndSeniorManagementPersonnel>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichCodeOfConductOfBoardOfDirectorsAndSeniorManagementPersonnelIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/CodeConduct.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichCodeOfConductOfBoardOfDirectorsAndSeniorManagementPersonnelIsPlaced>
+  <in-capmkt:DetailsOfEstablishmentOfVigilMechanismOrWhistleBlowerPolicy contextRef="MainD">Yes</in-capmkt:DetailsOfEstablishmentOfVigilMechanismOrWhistleBlowerPolicy>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichDetailsOfEstablishmentOfVigilMechanismOrWhistleBlowerPolicyIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/PolicieChar.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichDetailsOfEstablishmentOfVigilMechanismOrWhistleBlowerPolicyIsPlaced>
+  <in-capmkt:CriteriaOfMakingPaymentsToNonExecutiveDirectors contextRef="MainD">Yes</in-capmkt:CriteriaOfMakingPaymentsToNonExecutiveDirectors>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichDetailsOfCriteriaOfMakingPaymentsToNonExecutiveDirectorsIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/PolicieChar.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichDetailsOfCriteriaOfMakingPaymentsToNonExecutiveDirectorsIsPlaced>
+  <in-capmkt:PolicyOnDealingWithRelatedPartyTransactions contextRef="MainD">Yes</in-capmkt:PolicyOnDealingWithRelatedPartyTransactions>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichPolicyOnDealingWithRelatedPartyTransactionsIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/PolicieChar.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichPolicyOnDealingWithRelatedPartyTransactionsIsPlaced>
+  <in-capmkt:PolicyForDeterminingMaterialSubsidiaries contextRef="MainD">Yes</in-capmkt:PolicyForDeterminingMaterialSubsidiaries>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichPolicyForDeterminingMaterialSubsidiariesIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/PolicieChar.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichPolicyForDeterminingMaterialSubsidiariesIsPlaced>
+  <in-capmkt:DetailsOfFamiliarizationProgrammesImpartedToIndependentDirectors contextRef="MainD">No</in-capmkt:DetailsOfFamiliarizationProgrammesImpartedToIndependentDirectors>
+  <in-capmkt:DetailsOfNonComplianceOfDetailsOfFamiliarizationProgrammesImpartedToIndependentDirectors contextRef="MainD">As the Company is undergoing CIRP, the powers of the Board are suspended and being exercised by the Resolution Professional. While no formal external programme were organised for Independent directors, in accordance with the requirements of the Insolvency and Bankruptcy Code, all eligible directors of the Company are invited to attend meetings of the Committee of Creditors to keep them informed of significant events or changes related to the business of the Company.</in-capmkt:DetailsOfNonComplianceOfDetailsOfFamiliarizationProgrammesImpartedToIndependentDirectors>
+  <in-capmkt:EmailAddressForGrievanceRedressalAndOtherRelevantDetails contextRef="MainD">Yes</in-capmkt:EmailAddressForGrievanceRedressalAndOtherRelevantDetails>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichEmailAddressForGrievanceRedressalAndOtherRelevantDetailsIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/InvestorContacts.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichEmailAddressForGrievanceRedressalAndOtherRelevantDetailsIsPlaced>
+  <in-capmkt:ContactInformationOfTheDesignatedOfficialsOfTheListedEntityWhoAreResponsibleForAssistingAndHandlingInvestorGrievances contextRef="MainD">Yes</in-capmkt:ContactInformationOfTheDesignatedOfficialsOfTheListedEntityWhoAreResponsibleForAssistingAndHandlingInvestorGrievances>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichContactInformationOfTheDesignatedOfficialsOfTheListedEntityWhoAreResponsibleForAssistingAndHandlingInvestorGrievancesIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/InvestorContacts.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichContactInformationOfTheDesignatedOfficialsOfTheListedEntityWhoAreResponsibleForAssistingAndHandlingInvestorGrievancesIsPlaced>
+  <in-capmkt:FinancialResults contextRef="MainD">Yes</in-capmkt:FinancialResults>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichFinancialResultsIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/FinancialRes.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichFinancialResultsIsPlaced>
+  <in-capmkt:ShareholdingPattern contextRef="MainD">Yes</in-capmkt:ShareholdingPattern>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtWhichShareholdingPatternIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/ownership_structure.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtWhichShareholdingPatternIsPlaced>
+  <in-capmkt:DetailsOfAgreementsEnteredIntoWithTheMediaCompaniesAndOrTheirAssociates contextRef="MainD">NA</in-capmkt:DetailsOfAgreementsEnteredIntoWithTheMediaCompaniesAndOrTheirAssociates>
+  <in-capmkt:ScheduleOfAnalystOrInstitutionalInvestorMeetAndPresentationPreparedByListedEntityForAnalystOrInstitutionalInvestorMeet contextRef="MainD">NA</in-capmkt:ScheduleOfAnalystOrInstitutionalInvestorMeetAndPresentationPreparedByListedEntityForAnalystOrInstitutionalInvestorMeet>
+  <in-capmkt:AudioOrVideoRecordingsAndTranscriptsOfPostEariningsOrQuarterlyCalls contextRef="MainD">NA</in-capmkt:AudioOrVideoRecordingsAndTranscriptsOfPostEariningsOrQuarterlyCalls>
+  <in-capmkt:NewNameAndTheOldNameOfTheListedEntity contextRef="MainD">NA</in-capmkt:NewNameAndTheOldNameOfTheListedEntity>
+  <in-capmkt:AdvertisementsAsPerRegulation471 contextRef="MainD">NA</in-capmkt:AdvertisementsAsPerRegulation471>
+  <in-capmkt:CreditRatingOrRevisionInCreditRatingObtained contextRef="MainD">NA</in-capmkt:CreditRatingOrRevisionInCreditRatingObtained>
+  <in-capmkt:SeparateAuditedFinancialStatementsOfEachSubsidiaryOfTheListedEntity contextRef="MainD">NA</in-capmkt:SeparateAuditedFinancialStatementsOfEachSubsidiaryOfTheListedEntity>
+  <in-capmkt:SecretarialComplianceReport contextRef="MainD">Yes</in-capmkt:SecretarialComplianceReport>
+  <in-capmkt:DisclosureWebLinkOfSecretarialComplianceReportIsPlaced contextRef="MainD">https://videoconindustriesltd.com/FinancialAnnualRpt.aspx</in-capmkt:DisclosureWebLinkOfSecretarialComplianceReportIsPlaced>
+  <in-capmkt:MaterialityPolicyAsPerSubRegulation4Regulation30 contextRef="MainD">Yes</in-capmkt:MaterialityPolicyAsPerSubRegulation4Regulation30>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtMaterialityPolicyAsPerSubRegulation4Regulation30IsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/PolicieChar.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtMaterialityPolicyAsPerSubRegulation4Regulation30IsPlaced>
+  <in-capmkt:DisclosureOfContactDetailsOfKMPWhoAreAuthorizedForThePurposeOfDeterminingMaterialityUnderSubRegulation5OfRegulation30 contextRef="MainD">Yes</in-capmkt:DisclosureOfContactDetailsOfKMPWhoAreAuthorizedForThePurposeOfDeterminingMaterialityUnderSubRegulation5OfRegulation30>
+  <in-capmkt:DisclosureWebLinkOfDisclosureOfContactDetailsOfKMPWhoAreAuthorizedForThePurposeOfDeterminingMaterialityUnderSubRegulation5OfRegulation30IsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/PolicieChar.aspx</in-capmkt:DisclosureWebLinkOfDisclosureOfContactDetailsOfKMPWhoAreAuthorizedForThePurposeOfDeterminingMaterialityUnderSubRegulation5OfRegulation30IsPlaced>
+  <in-capmkt:DisclosuresUnderSubRegulation8OfRegulation30 contextRef="MainD">Yes</in-capmkt:DisclosuresUnderSubRegulation8OfRegulation30>
+  <in-capmkt:DisclosureWebLinkOfDisclosuresUnderSubRegulation8OfRegulation30IsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/PolicieChar.aspx</in-capmkt:DisclosureWebLinkOfDisclosuresUnderSubRegulation8OfRegulation30IsPlaced>
+  <in-capmkt:StatementsOfDeviationsOrVariationsAsSpecifiedInRegulation32 contextRef="MainD">NA</in-capmkt:StatementsOfDeviationsOrVariationsAsSpecifiedInRegulation32>
+  <in-capmkt:DividendDistributionPolicyAsPerRegulation43A1 contextRef="MainD">Yes</in-capmkt:DividendDistributionPolicyAsPerRegulation43A1>
+  <in-capmkt:DisclosureWebLinkOfCompanyAtDividendDistributionPolicyAsPerRegulation43A1IsPlaced contextRef="MainD">https://www.videoconindustriesltd.com/PolicieChar.aspx</in-capmkt:DisclosureWebLinkOfCompanyAtDividendDistributionPolicyAsPerRegulation43A1IsPlaced>
+  <in-capmkt:AnnualReturnAsProvidedUnderSection92OfTheCompaniesAct2013 contextRef="MainD">Yes</in-capmkt:AnnualReturnAsProvidedUnderSection92OfTheCompaniesAct2013>
+  <in-capmkt:DisclosureWebLinkOfAnnualReturnAsProvidedUnderSection92OfTheCompaniesAct2013IsPlaced contextRef="MainD">https://www.videoconindustriesltd.com</in-capmkt:DisclosureWebLinkOfAnnualReturnAsProvidedUnderSection92OfTheCompaniesAct2013IsPlaced>
+  <in-capmkt:EmployeeBenefitSchemeDocumentsFramedInTermsOfSEBIShareBasedEmployeeBenefitsAndSweatEquityRegulations2021 contextRef="MainD">NA</in-capmkt:EmployeeBenefitSchemeDocumentsFramedInTermsOfSEBIShareBasedEmployeeBenefitsAndSweatEquityRegulations2021>
+  <in-capmkt:ConfirmationThatTheDisclosuresAreInASeparateSectionAsSpecifiedInSubRegulation2OfRegulation46 contextRef="MainD">Yes</in-capmkt:ConfirmationThatTheDisclosuresAreInASeparateSectionAsSpecifiedInSubRegulation2OfRegulation46>
+  <in-capmkt:DisclosureWebLinkOfConfirmationThatTheDisclosuresAreInASeparateSectionAsSpecifiedInSubRegulation2OfRegulation46IsPlaced contextRef="MainD">https://www.videoconindustriesltd.com</in-capmkt:DisclosureWebLinkOfConfirmationThatTheDisclosuresAreInASeparateSectionAsSpecifiedInSubRegulation2OfRegulation46IsPlaced>
+  <in-capmkt:ComplianceWithSubRegulation3OfRegulation46WithRespectToAccuracyOfDisclosuresOnTheWebsiteAndTimelyUpdation contextRef="MainD">Yes</in-capmkt:ComplianceWithSubRegulation3OfRegulation46WithRespectToAccuracyOfDisclosuresOnTheWebsiteAndTimelyUpdation>
+  <in-capmkt:DisclosureWebLinkOfComplianceWithSubRegulation3OfRegulation46WithRespectToAccuracyOfDisclosuresOnTheWebsiteAndTimelyUpdationIsPlaced contextRef="MainD">https://www.videoconindustriesltd.com</in-capmkt:DisclosureWebLinkOfComplianceWithSubRegulation3OfRegulation46WithRespectToAccuracyOfDisclosuresOnTheWebsiteAndTimelyUpdationIsPlaced>
+  <in-capmkt:IndependentDirectorSHaveBeenAppointedInTermsOfSpecifiedCriteriaOfIndependenceAndOrEligibility contextRef="MainD">No</in-capmkt:IndependentDirectorSHaveBeenAppointedInTermsOfSpecifiedCriteriaOfIndependenceAndOrEligibility>
+  <in-capmkt:DetailsOfNonComplianceOfIndependentDirectorSHaveBeenAppointedInTermsOfSpecifiedCriteriaOfIndependenceAndOrEligibility contextRef="MainD">During the tenure of the ongoing CIRP of the Company  certain directors have vacated their office from the Company  and therefore the Company is not in compliance with regulations 16 1  b and 25 6</in-capmkt:DetailsOfNonComplianceOfIndependentDirectorSHaveBeenAppointedInTermsOfSpecifiedCriteriaOfIndependenceAndOrEligibility>
+  <in-capmkt:BoardComposition contextRef="MainD">NA</in-capmkt:BoardComposition>
+  <in-capmkt:MeetingOfBoardOfDirectors contextRef="MainD">NA</in-capmkt:MeetingOfBoardOfDirectors>
+  <in-capmkt:QuorumOfBoardMeeting contextRef="MainD">NA</in-capmkt:QuorumOfBoardMeeting>
+  <in-capmkt:ReviewOfComplianceReports contextRef="MainD">NA</in-capmkt:ReviewOfComplianceReports>
+  <in-capmkt:PlansForOrderlySuccessionForAppointments contextRef="MainD">NA</in-capmkt:PlansForOrderlySuccessionForAppointments>
+  <in-capmkt:CodeOfConduct contextRef="MainD">Yes</in-capmkt:CodeOfConduct>
+  <in-capmkt:FeesOrCompensation contextRef="MainD">NA</in-capmkt:FeesOrCompensation>
+  <in-capmkt:MinimumInformation contextRef="MainD">NA</in-capmkt:MinimumInformation>
+  <in-capmkt:ComplianceCertificate contextRef="MainD">NA</in-capmkt:ComplianceCertificate>
+  <in-capmkt:RiskAssessmentAndManagement contextRef="MainD">NA</in-capmkt:RiskAssessmentAndManagement>
+  <in-capmkt:PerformanceEvaluationOfIndependentDirectors contextRef="MainD">NA</in-capmkt:PerformanceEvaluationOfIndependentDirectors>
+  <in-capmkt:RecommendationOfBoard contextRef="MainD">NA</in-capmkt:RecommendationOfBoard>
+  <in-capmkt:MaximumNumberOfDirectorships contextRef="MainD">Yes</in-capmkt:MaximumNumberOfDirectorships>
+  <in-capmkt:CompositionOfAuditCommittee contextRef="MainD">NA</in-capmkt:CompositionOfAuditCommittee>
+  <in-capmkt:MeetingOfAuditCommittee contextRef="MainD">NA</in-capmkt:MeetingOfAuditCommittee>
+  <in-capmkt:RoleOfAuditCommitteeAndInformationToBeReviewedByTheAuditCommittee contextRef="MainD">NA</in-capmkt:RoleOfAuditCommitteeAndInformationToBeReviewedByTheAuditCommittee>
+  <in-capmkt:CompositionOfNominationAndRemunerationCommittee contextRef="MainD">NA</in-capmkt:CompositionOfNominationAndRemunerationCommittee>
+  <in-capmkt:QuorumOfNominationAndRemunerationCommitteeMeeting contextRef="MainD">NA</in-capmkt:QuorumOfNominationAndRemunerationCommitteeMeeting>
+  <in-capmkt:MeetingOfNominationAndRemunerationCommittee contextRef="MainD">NA</in-capmkt:MeetingOfNominationAndRemunerationCommittee>
+  <in-capmkt:RoleOfNominationAndRemunerationCommittee contextRef="MainD">NA</in-capmkt:RoleOfNominationAndRemunerationCommittee>
+  <in-capmkt:CompositionOfStakeholderRelationshipCommittee contextRef="MainD">NA</in-capmkt:CompositionOfStakeholderRelationshipCommittee>
+  <in-capmkt:MeetingOfStakeholdersRelationshipCommittee contextRef="MainD">NA</in-capmkt:MeetingOfStakeholdersRelationshipCommittee>
+  <in-capmkt:RoleOfStakeholdersRelationshipCommittee contextRef="MainD">NA</in-capmkt:RoleOfStakeholdersRelationshipCommittee>
+  <in-capmkt:CompositionAndRoleOfRiskManagementCommittee contextRef="MainD">NA</in-capmkt:CompositionAndRoleOfRiskManagementCommittee>
+  <in-capmkt:MeetingOfRiskManagementCommittee contextRef="MainD">NA</in-capmkt:MeetingOfRiskManagementCommittee>
+  <in-capmkt:QuorumOfRiskManagementCommitteemeeting contextRef="MainD">NA</in-capmkt:QuorumOfRiskManagementCommitteemeeting>
+  <in-capmkt:GapBetweenTheMeetingsOfTheRiskManagementCommittee contextRef="MainD">NA</in-capmkt:GapBetweenTheMeetingsOfTheRiskManagementCommittee>
+  <in-capmkt:VigilMechanism contextRef="MainD">Yes</in-capmkt:VigilMechanism>
+  <in-capmkt:PolicyForRelatedPartyTransaction contextRef="MainD">No</in-capmkt:PolicyForRelatedPartyTransaction>
+  <in-capmkt:DetailsOfNonComplianceOfPolicyForRelatedPartyTransaction contextRef="MainD">The Policy on Related Party Transactions as formulated prior to CIRP commencement by the erstwhile management is available  However since the company is undergoing consolidated CIRP with 12 other Videocon group entities the said policy and any transactions with related parties shall be subject to the provisions of the Code</in-capmkt:DetailsOfNonComplianceOfPolicyForRelatedPartyTransaction>
+  <in-capmkt:PriorOrOmnibusApprovalOfAuditCommitteeForAllRelatedPartyTransactions contextRef="MainD">NA</in-capmkt:PriorOrOmnibusApprovalOfAuditCommitteeForAllRelatedPartyTransactions>
+  <in-capmkt:ApprovalForMaterialRelatedPartyTransactions contextRef="MainD">NA</in-capmkt:ApprovalForMaterialRelatedPartyTransactions>
+  <in-capmkt:DisclosureOfRelatedPartyTransactionsOnConsolidatedBasis contextRef="MainD">No</in-capmkt:DisclosureOfRelatedPartyTransactionsOnConsolidatedBasis>
+  <in-capmkt:DetailsOfNonComplianceOfDisclosureOfRelatedPartyTransactionsOnConsolidatedBasis contextRef="MainD">As you have been previously informed through various Company filings we would like to reiterate that the Company is presently unable to conclude the preparation and finalization of the standalone and consolidated financial statements for the financial year that ended on March 31  2023 in accordance with SEBI LODR 2015 timelines Furthermore due to the absence of requisite pre CIRP data the Company is presently unable to provide a disclosure of related party transactions on a consolidated basis under regulation 23 9 of SEBI LODR Regulation 2015</in-capmkt:DetailsOfNonComplianceOfDisclosureOfRelatedPartyTransactionsOnConsolidatedBasis>
+  <in-capmkt:CompositionOfBoardOfDirectorsOfUnlistedMaterialSubsidiary contextRef="MainD">No</in-capmkt:CompositionOfBoardOfDirectorsOfUnlistedMaterialSubsidiary>
+  <in-capmkt:DetailsOfNonComplianceOfCompositionOfBoardOfDirectorsOfUnlistedMaterialSubsidiary contextRef="MainD">According to the Policy for determining Material Subsidiary as formulated by the erstwhile management prior to the commencement of corporate insolvency resolution process  the Company needs to determine the material unlisted Indian subsidiary on the basis of income or net-worth of subsidiary with the consolidated income or net worth of the parent in the immediately preceding financial year  As per the information available there were only two Material Subsidiaries as on 31st March 2019 both of which are undergoing CIRP and are under the management and control of a resolution professional
+Further  as communicated earlier from time to time through various Company filings that data information related to the Subsidiaries or Associates or Joint Ventures of previous financial years pertaining to entities outside consolidated CIRP  and data required for preparation of consolidated financial statement was not made available to the Resolution Professional by the promoters and erstwhile management for which applications under Section 19 of the Code have already been filed with NCLT by the Resolution Professional in absence of the financial statements of the subsidiaries the  Company was unable to prepare the consolidated financial statements and determine the material subsidiaries for the financial year ending on March 31 2020 onwards In view of this the Company is unable to confirm on the compliance with Regulation 24 1  of the SEBI LODR Regulations 2015</in-capmkt:DetailsOfNonComplianceOfCompositionOfBoardOfDirectorsOfUnlistedMaterialSubsidiary>
+  <in-capmkt:OtherCorporateGovernanceRequirementsWithRespectToSubsidiaryOfListedEntity contextRef="MainD">No</in-capmkt:OtherCorporateGovernanceRequirementsWithRespectToSubsidiaryOfListedEntity>
+  <in-capmkt:DetailsOfNonComplianceOfOtherCorporateGovernanceRequirementsWithRespectToSubsidiaryOfListedEntity contextRef="MainD">As previously stated the Company was unable to determine the material subsidiaries for the financial year ending on March 31 2023 and therefore could not comply with Regulation 24 1  of the SEBI LODR Regulations 2015  As a result the Company was unable to comply with sub regulations 24 2 3 4 5 and 6 of SEBI LODR Regulations 2015</in-capmkt:DetailsOfNonComplianceOfOtherCorporateGovernanceRequirementsWithRespectToSubsidiaryOfListedEntity>
+  <in-capmkt:AlternateDirectorToIndependentDirector contextRef="MainD">NA</in-capmkt:AlternateDirectorToIndependentDirector>
+  <in-capmkt:MaximumDirectorshipAndTenure contextRef="MainD">Yes</in-capmkt:MaximumDirectorshipAndTenure>
+  <in-capmkt:AppointmentReAppointmentOrRemovalOfAnIndependentDirectorThroughSpecialResolutionOrTheAlternateMechanism contextRef="MainD">NA</in-capmkt:AppointmentReAppointmentOrRemovalOfAnIndependentDirectorThroughSpecialResolutionOrTheAlternateMechanism>
+  <in-capmkt:MeetingOfIndependentDirectors contextRef="MainD">NA</in-capmkt:MeetingOfIndependentDirectors>
+  <in-capmkt:FamiliarizationOfIndependentDirectors contextRef="MainD">No</in-capmkt:FamiliarizationOfIndependentDirectors>
+  <in-capmkt:DetailsOfNonComplianceOfFamiliarizationOfIndependentDirectors contextRef="MainD">As the Company is undergoing CIRP  the powers of the Board are suspended and being exercised by the Resolution Professional While no formal external programme were organised for Independent directors in accordance with the requirements of the Insolvency and Bankruptcy Code all eligible directors of the Company are invited to attend meetings of the Committee of Creditors to keep them informed of significant events or changes related to the business of the Company</in-capmkt:DetailsOfNonComplianceOfFamiliarizationOfIndependentDirectors>
+  <in-capmkt:DeclarationFromIndependentDirector contextRef="MainD">No</in-capmkt:DeclarationFromIndependentDirector>
+  <in-capmkt:DetailsOfNonComplianceOfDeclarationFromIndependentDirector contextRef="MainD">The company has not received any declaration from Independent directors  Further there is no independent director on the Board of the Company as on March 31  2024</in-capmkt:DetailsOfNonComplianceOfDeclarationFromIndependentDirector>
+  <in-capmkt:DirectorsAndOfficersInsurance contextRef="MainD">No</in-capmkt:DirectorsAndOfficersInsurance>
+  <in-capmkt:DetailsOfNonComplianceOfDirectorsAndOfficersInsurance contextRef="MainD">Due to financial constraint  the company has not taken D and O Insurance</in-capmkt:DetailsOfNonComplianceOfDirectorsAndOfficersInsurance>
+  <in-capmkt:ConfirmationWithRespectToAppointmentOfIndependentDirectorsWhoResignedFromTheListedEntity contextRef="MainD">NA</in-capmkt:ConfirmationWithRespectToAppointmentOfIndependentDirectorsWhoResignedFromTheListedEntity>
+  <in-capmkt:MembershipsInCommittees contextRef="MainD">Yes</in-capmkt:MembershipsInCommittees>
+  <in-capmkt:AffirmationWithComplianceToCodeOfConductFromMembersOfBoardOfDirectorsAndSeniorManagementPersonnel contextRef="MainD">No</in-capmkt:AffirmationWithComplianceToCodeOfConductFromMembersOfBoardOfDirectorsAndSeniorManagementPersonnel>
+  <in-capmkt:DetailsOfNonComplianceOfAffirmationWithComplianceToCodeOfConductFromMembersOfBoardOfDirectorsAndSeniorManagementPersonnel contextRef="MainD">The Company has not received formal affirmation on compliance of code of conduct  However all the employees are governed by the internal policies on ethics and Code of Conduct and there were no instances of violation of the Code of Conduct that were brought to the attention of the management of the Company during the year</in-capmkt:DetailsOfNonComplianceOfAffirmationWithComplianceToCodeOfConductFromMembersOfBoardOfDirectorsAndSeniorManagementPersonnel>
+  <in-capmkt:PolicyWithRespectToObligationsOfDirectorsAndSeniorManagement contextRef="MainD">Yes</in-capmkt:PolicyWithRespectToObligationsOfDirectorsAndSeniorManagement>
+  <in-capmkt:ApprovalOfTheBoardAndShareholdersForCompensationOrProfitSharing contextRef="MainD">NA</in-capmkt:ApprovalOfTheBoardAndShareholdersForCompensationOrProfitSharing>
+  <in-capmkt:VacanciesInRespectKeyManagerialPersonnel contextRef="MainD">No</in-capmkt:VacanciesInRespectKeyManagerialPersonnel>
+  <in-capmkt:DetailsOfNonComplianceOfVacanciesInRespectKeyManagerialPersonnel contextRef="MainD">As you are aware the Company along with 12 other Videocon group entities is undergoing consolidated corporate insolvency resolution process CIRP under the provisions of the Insolvency and Bankruptcy Code 2016 read with rules and regulations framed thereunder with Mr Abhijit Guhathakurta as the Resolution Professional or RP of the Corporate Debtors vide Honble National Company Law Tribunal Mumbai NCLT order dated 25 September 2019  Further  as you may be aware the resolution plan is subjudice before Honble Supreme Court and as such the Corporate Debtors continue to be undergoing CIRP since their insolvency commencement dates Due to the prolonged CIRP and extreme financial and operational constraints the company is facing extreme difficulty to ensure talent acquisition and employee retention due to the which the appointment of the CFO could not be done</in-capmkt:DetailsOfNonComplianceOfVacanciesInRespectKeyManagerialPersonnel>
+  <in-capmkt:NameOfSignatoryForAnnualAffirmations contextRef="MainD">AMOL ASHOK MANDLIK</in-capmkt:NameOfSignatoryForAnnualAffirmations>
+  <in-capmkt:DesignationOfPersonForAnnualAffirmations contextRef="MainD">Director</in-capmkt:DesignationOfPersonForAnnualAffirmations>
+  <in-capmkt:TheListedEntityHasApprovedMaterialSubsidiaryPolicyAndTheCorporateGovernanceRequirementsWithRespectToSubsidiaryOfListedEntityHaveBeenComplied contextRef="MainD">Yes</in-capmkt:TheListedEntityHasApprovedMaterialSubsidiaryPolicyAndTheCorporateGovernanceRequirementsWithRespectToSubsidiaryOfListedEntityHaveBeenComplied>
+  <in-capmkt:DisclosureOfNotesOnAffirmationsExplanatoryTextBlock contextRef="MainD">Yes, the Company has approved a Material Subsidiary Policy. However, due to the absence of data/information related to the Subsidiaries/Associates/Joint Ventures of previous financial years, the Company was unable to determine the material subsidiaries for the financial year ending on March 31, 2025. As a result, the Company could not comply with the Corporate Governance requirements related to the material subsidiaries.</in-capmkt:DisclosureOfNotesOnAffirmationsExplanatoryTextBlock>
+  <in-capmkt:NameOfSignatoryAffirmations contextRef="MainD">AMOL ASHOK MANDLIK</in-capmkt:NameOfSignatoryAffirmations>
+  <in-capmkt:DesignationOfPersonAffirmations contextRef="MainD">Director</in-capmkt:DesignationOfPersonAffirmations>
+  <in-capmkt:WhetherAsPerSubRegulation2baOfRegulation27OfSEBILODRThereHasBeenCyberSecurityIncidentsDuringTheQuarter contextRef="MainD">false</in-capmkt:WhetherAsPerSubRegulation2baOfRegulation27OfSEBILODRThereHasBeenCyberSecurityIncidentsDuringTheQuarter>
+  <in-capmkt:NameOfSignatory contextRef="MainD">AMOL ASHOK MANDLIK</in-capmkt:NameOfSignatory>
+  <in-capmkt:DesignationOfPerson contextRef="MainD">Director</in-capmkt:DesignationOfPerson>
+  <in-capmkt:Place contextRef="MainD">MUMBAI</in-capmkt:Place>
+  <in-capmkt:DateOfSigning contextRef="MainI">2025-04-30</in-capmkt:DateOfSigning>
+  <in-capmkt:NoOfInvestorComplaints contextRef="PY_I" unitRef="pure" decimals="0">0</in-capmkt:NoOfInvestorComplaints>
+  <in-capmkt:NoOfInvestorComplaintsReceivedDuringThePeriod contextRef="MainD" unitRef="pure" decimals="0">1</in-capmkt:NoOfInvestorComplaintsReceivedDuringThePeriod>
+  <in-capmkt:NoOfInvestorComplaintsDisposedOffDuringThePeriod contextRef="MainD" unitRef="pure" decimals="0">1</in-capmkt:NoOfInvestorComplaintsDisposedOffDuringThePeriod>
+  <in-capmkt:NoOfInvestorComplaints contextRef="MainI" unitRef="pure" decimals="0">0</in-capmkt:NoOfInvestorComplaints>
+  <in-capmkt:NoOfInvestorComplaintsDuringThePeriod contextRef="MainD" unitRef="pure" decimals="0">0</in-capmkt:NoOfInvestorComplaintsDuringThePeriod>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes1">Income Tax</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes1">2024-05-30</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes1">Appeal filed</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes1">Pending before court</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes2">Custom</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes2">2024-10-24</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes2">Pending for Reply</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes2">Pending for Reply</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes3">GST</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes3">2024-10-14</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes3">Pending for Reply</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes3">Pending for Reply</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes4">GST</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes4">2024-02-06</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes4">NA</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes4">Pending for Reply</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes5">GST</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes5">2025-04-01</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes5">NA</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes5">Pending for Reply</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes6">GST</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes6">2025-04-24</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes6">NA</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes6">Pending for Reply</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+  <in-capmkt:NameOfTheOpposingParty contextRef="I_OngoingTaxLitigationsOrDisputes7">Custom</in-capmkt:NameOfTheOpposingParty>
+  <in-capmkt:DateOfInitiationOfTheLitigationDispute contextRef="I_OngoingTaxLitigationsOrDisputes7">2025-04-23</in-capmkt:DateOfInitiationOfTheLitigationDispute>
+  <in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure contextRef="I_OngoingTaxLitigationsOrDisputes7">NA</in-capmkt:StatusOfTheLitigationDisputeAsPerLastDisclosure>
+  <in-capmkt:CurrentStatusOfTheLitigationOrDispute contextRef="I_OngoingTaxLitigationsOrDisputes7">Pending for Reply</in-capmkt:CurrentStatusOfTheLitigationOrDispute>
+</xbrli:xbrl>

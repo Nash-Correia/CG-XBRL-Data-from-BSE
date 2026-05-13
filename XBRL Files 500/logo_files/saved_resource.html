@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)https://171da9da-7a44-4af2-87a9-706eba63e382-v2-figmaiframepreview.figma.site/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><meta name="color-scheme" content="light dark"></head><body>
+  <script>
+    window.messagePort = null
+
+    const allowedOrigins = [
+      'https://figma-gov.com',
+      'https://www.figma.com',
+      'https://staging.figma.com',
+      'https://devenv01.figma.engineering',
+      'https://local.figma.engineering:8443',
+      'http://localhost:9000',
+    ]
+
+    window.addEventListener('message', (e) => {
+      function sendMessage(data) {
+        if (window.messagePort) {
+          window.messagePort.postMessage({ data })
+        }
+      }
+
+      if (allowedOrigins.includes(e.origin)) {
+        if (e.data.type === 'iframe-init') {
+          window.messagePort = e.ports[0]
+          window.__PREVIEW_IFRAME_INITIAL_OPTIONS__ = e.data.previewIframeInitialOptions
+
+          sendMessage({
+            method: 'status',
+            state: 'init-received',
+            isReady: false
+          })
+
+          if (e.data.initScriptBlob) {
+            import(URL.createObjectURL(e.data.initScriptBlob))
+          } else {
+            const script = document.createElement('script')
+
+            script.onload = async () => {
+              function sendReady() {
+                sendMessage({
+                  method: 'status',
+                  state: 'ready',
+                  isReady: true
+                })
+              }
+
+              if (window.__iframeScriptExecuted__) {
+                sendReady()
+                return
+              }
+
+              let executeInterval = null
+              let timeout = null
+
+              const timeoutPromise = new Promise((resolve) => {
+                timeout = setTimeout(() => resolve('timeout'), 2000)
+              })
+
+              const scriptExecutedPromise = new Promise((resolve) => {
+                executeInterval = setInterval(() => {
+                  if (window.__iframeScriptExecuted__) {
+                    resolve('ready')
+                  }
+                }, 50)
+              })
+
+              const result = await Promise.race([timeoutPromise, scriptExecutedPromise])
+
+              clearTimeout(timeout)
+              clearInterval(executeInterval)
+
+              if (result === 'ready') {
+                sendReady()
+              } else {
+                sendMessage({
+                  method: 'status',
+                  state: 'script-timeout',
+                  isReady: false
+                })
+              }
+            }
+
+            script.onerror = (e) => {
+              sendMessage({
+                method: 'status',
+                state: 'script-load-error',
+                isReady: false,
+                error: e.message
+              })
+            }
+
+            script.src = e.data.initScriptURL
+            // https://sentry.io/answers/script-error/
+            script.crossOrigin = 'anonymous'
+            document.body.appendChild(script)
+          }
+        }
+      }
+    })
+  </script>
+
+
+
+<script src="./code_components_preview_iframe-67f7164b8834b1b0.min.js.br" crossorigin="anonymous"></script><div id="container"></div></body></html>
