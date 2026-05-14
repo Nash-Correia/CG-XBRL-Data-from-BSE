@@ -41,15 +41,19 @@ for idx, row in df.iterrows():
     driver.get(url)
 
     try:
-        el = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "#deribody > div:nth-child(12) > div > div > div > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td:nth-child(7) > a"))
+        # Wait for at least one .xml link to appear in the table (works for both old
+        # and new BSE page layouts — the #deribody selector no longer exists).
+        el = WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located(
+                (By.XPATH, "(//a[contains(@href,'.xml') or contains(@href,'.XML')])[1]")
+            )
         )
     except:
         print(f"   • No XBRL link for {nse}/{bse}, skipping.")
         continue
 
-    rel_href = el.get_attribute("href")
-    xml_url  = rel_href if rel_href.startswith("http") else BSE_ROOT + rel_href
+    href = el.get_attribute("href") or ""
+    xml_url = href if href.startswith("http") else BSE_ROOT + href
 
     # prepare requests session with Selenium cookies & headers
     session = requests.Session()
